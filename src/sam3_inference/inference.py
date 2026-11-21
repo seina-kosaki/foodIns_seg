@@ -116,7 +116,18 @@ def _validate_bboxes(bboxes: Iterable[ArrayLike] | None, height: int, width: int
         if not np.all(np.isfinite(coordinates)):
             raise ValueError(f"bbox {index} の座標は有限値で指定してください。")
         x1, y1, x2, y2 = coordinates
-        if x1 < 0 or y1 < 0 or x2 > width or y2 > height or x1 >= x2 or y1 >= y2:
+        tolerance = 1e-6
+        if x1 < -tolerance or y1 < -tolerance or x2 > width + tolerance or y2 > height + tolerance:
+            raise ValueError(f"bbox {index} は画像内の正の面積を持つxyxy座標で指定してください。")
+
+        coordinates = [
+            min(max(x1, 0.0), float(width)),
+            min(max(y1, 0.0), float(height)),
+            min(max(x2, 0.0), float(width)),
+            min(max(y2, 0.0), float(height)),
+        ]
+        x1, y1, x2, y2 = coordinates
+        if x1 >= x2 or y1 >= y2:
             raise ValueError(f"bbox {index} は画像内の正の面積を持つxyxy座標で指定してください。")
         validated.append(coordinates)
     return validated

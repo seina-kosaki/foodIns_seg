@@ -23,7 +23,7 @@ dataset:
   # true: iscrowd=1 のアノテーションも評価に含める / false: 除外
   include_crowd: false
   # 先頭から何枚だけ処理するか。null なら全画像。動作確認用に 5 などを指定
-  image_limit: null
+  image_limit: 10
   # 指定した画像IDだけ処理する。null なら全画像。例: [101, 205]
   image_ids: null
 
@@ -58,7 +58,7 @@ evaluation:
   # 全体AP(カテゴリ平均)に加えて、「これらのカテゴリを除いた全体AP」も併記する。
   # 意味が曖昧で検出が難しいカテゴリを除外した参考値を出すための設定。空にすると併記しない。
   supplementary_exclude_categories:
-    - "other ingredients"
+    - ""
 
 # -------------------------------------------------------------
 # 出力の設定

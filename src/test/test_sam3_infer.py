@@ -7,10 +7,13 @@ import sys
 from pathlib import Path
 
 import cv2
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.sam3_inference.inference import Sam3Segmenter
+from src.sam3_inference.inference import _validate_bboxes as validate_legacy_bboxes
+from src.sam3_inference.inference_categories import _validate_bboxes as validate_category_bboxes
 from src.sam3_inference.iou import calculate_iou
 from src.sam3_inference.visualization import draw_detections
 
@@ -108,6 +111,28 @@ def main() -> None:
     except (OSError, UnicodeError, TypeError, ValueError) as exc:
         raise OSError(f"SAM3推論結果のJSONを保存できませんでした: {RESULT_PATH}") from exc
     LOGGER.info("推論結果のJSONを保存しました: %s", RESULT_PATH)
+
+
+@pytest.mark.parametrize(
+    ("validator", "bbox", "expected"),
+    [
+        (validate_category_bboxes, [-1e-7, -1e-7, 10.0000001, 20.0000001], [0.0, 0.0, 10.0000001, 20.0000001]),
+        (validate_category_bboxes, [1.0, 2.0, 100.0000001, 50.0000001], [1.0, 2.0, 100.0, 50.0]),
+        (validate_legacy_bboxes, [-1e-7, -1e-7, 10.0000001, 20.0000001], [0.0, 0.0, 10.0000001, 20.0000001]),
+        (validate_legacy_bboxes, [1.0, 2.0, 100.0000001, 50.0000001], [1.0, 2.0, 100.0, 50.0]),
+    ],
+)
+def test_validate_bboxes_clips_near_image_boundaries(validator, bbox, expected):
+    """画像端の浮動小数誤差を許容して座標をクリップする。"""
+    assert validator([bbox], 50, 100) == [expected]
+
+
+@pytest.mark.parametrize("validator", [validate_category_bboxes, validate_legacy_bboxes])
+@pytest.mark.parametrize("bbox", [[-1.0, 0.0, 10.0, 10.0], [0.0, 0.0, 101.0, 10.0], [5.0, 5.0, 5.0, 10.0]])
+def test_validate_bboxes_rejects_invalid_regions(validator, bbox):
+    """画像から大きく外れるか面積ゼロのbboxを拒否する。"""
+    with pytest.raises(ValueError):
+        validator([bbox], 50, 100)
 
 
 if __name__ == "__main__":

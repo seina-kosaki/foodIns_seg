@@ -1,0 +1,13 @@
+{
+  "annotation_path": "C:\\work\\foodIns_seg\\datasets\\annotations\\Test.json",
+  "image_dir": "C:\\work\\foodIns_seg\\datasets\\images\\test",
+  "modes": [
+    "no_bbox",
+    "bbox"
+  ],
+  "selected_image_count": 10,
+  "processed_image_count": 10,
+  "prediction_count": 481,
+  "confidence_threshold": 0.5,
+  "device": "cuda"
+}

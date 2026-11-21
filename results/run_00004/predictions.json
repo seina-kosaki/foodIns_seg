@@ -1,0 +1,8577 @@
+[
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.91796875,
+    "xyxy": [
+      347.81781005859375,
+      -0.8573898673057556,
+      516.655029296875,
+      97.0340576171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 66,
+    "category_name": "rice",
+    "prompt": "rice",
+    "confidence": 0.9140625,
+    "xyxy": [
+      26.817916870117188,
+      -0.4071727395057678,
+      363.21099853515625,
+      137.01605224609375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.859375,
+    "xyxy": [
+      343.4491882324219,
+      119.3298568725586,
+      412.9092102050781,
+      197.81117248535156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.65234375,
+    "xyxy": [
+      285.4432373046875,
+      161.82957458496094,
+      316.09100341796875,
+      204.99569702148438
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.91015625,
+    "xyxy": [
+      198.49114990234375,
+      155.61329650878906,
+      302.08660888671875,
+      239.0382080078125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.58984375,
+    "xyxy": [
+      172.01666259765625,
+      330.5631408691406,
+      198.35415649414062,
+      370.331787109375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.86328125,
+    "xyxy": [
+      166.94570922851562,
+      410.4176025390625,
+      265.9884338378906,
+      481.6666259765625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.87109375,
+    "xyxy": [
+      40.77934265136719,
+      198.73611450195312,
+      82.91777801513672,
+      258.3357849121094
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.80859375,
+    "xyxy": [
+      142.70736694335938,
+      168.031005859375,
+      205.33428955078125,
+      226.6322021484375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9140625,
+    "xyxy": [
+      368.7101745605469,
+      254.25489807128906,
+      448.4485778808594,
+      344.4842224121094
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.90234375,
+    "xyxy": [
+      223.8583221435547,
+      105.82833862304688,
+      264.032470703125,
+      160.21774291992188
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.7265625,
+    "xyxy": [
+      281.20404052734375,
+      318.1055908203125,
+      362.36187744140625,
+      352.51348876953125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.81640625,
+    "xyxy": [
+      111.26847076416016,
+      179.7192840576172,
+      149.02198791503906,
+      229.83627319335938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8984375,
+    "xyxy": [
+      436.61004638671875,
+      246.3994903564453,
+      514.20556640625,
+      320.8156433105469
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8515625,
+    "xyxy": [
+      171.9411163330078,
+      376.7817687988281,
+      232.8522491455078,
+      425.8874206542969
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.81640625,
+    "xyxy": [
+      218.76498413085938,
+      312.6058654785156,
+      276.8226013183594,
+      381.6238708496094
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.90234375,
+    "xyxy": [
+      77.47491455078125,
+      305.5943298339844,
+      174.72503662109375,
+      380.2598571777344
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.671875,
+    "xyxy": [
+      174.72918701171875,
+      294.9486999511719,
+      244.593505859375,
+      336.2656555175781
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.5703125,
+    "xyxy": [
+      185.9910888671875,
+      339.6804504394531,
+      222.79568481445312,
+      379.2133483886719
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.78515625,
+    "xyxy": [
+      87.49464416503906,
+      264.3909606933594,
+      178.8213348388672,
+      329.2312927246094
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8203125,
+    "xyxy": [
+      303.8739013671875,
+      358.6756591796875,
+      388.0367431640625,
+      408.867431640625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.90625,
+    "xyxy": [
+      304.3966979980469,
+      197.24346923828125,
+      405.7286071777344,
+      264.7843933105469
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8046875,
+    "xyxy": [
+      263.7020568847656,
+      94.9696273803711,
+      317.6983947753906,
+      131.85377502441406
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.859375,
+    "xyxy": [
+      281.9917297363281,
+      267.4874267578125,
+      384.6880798339844,
+      324.74859619140625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9140625,
+    "xyxy": [
+      118.75150299072266,
+      109.56184387207031,
+      223.27618408203125,
+      181.74644470214844
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.76171875,
+    "xyxy": [
+      26.34903335571289,
+      258.5984802246094,
+      100.91413879394531,
+      307.70977783203125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.6875,
+    "xyxy": [
+      328.6951599121094,
+      325.7049560546875,
+      372.3015441894531,
+      371.38409423828125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.89453125,
+    "xyxy": [
+      231.91818237304688,
+      333.21783447265625,
+      326.3924255371094,
+      412.764892578125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.5390625,
+    "xyxy": [
+      280.9395446777344,
+      206.43936157226562,
+      309.7421569824219,
+      237.06761169433594
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.91015625,
+    "xyxy": [
+      66.6767578125,
+      131.63449096679688,
+      119.26496887207031,
+      183.60324096679688
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.921875,
+    "xyxy": [
+      215.60855102539062,
+      228.1895751953125,
+      302.8175964355469,
+      310.1725158691406
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.74609375,
+    "xyxy": [
+      269.7069396972656,
+      105.44950103759766,
+      326.2449645996094,
+      164.9023895263672
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.5234375,
+    "xyxy": [
+      290.398193359375,
+      105.59147644042969,
+      327.60009765625,
+      165.28533935546875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.84765625,
+    "xyxy": [
+      311.6319885253906,
+      128.6664276123047,
+      375.2544860839844,
+      196.5718231201172
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.90625,
+    "xyxy": [
+      259.8644104003906,
+      413.47601318359375,
+      334.1712341308594,
+      485.3864440917969
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.734375,
+    "xyxy": [
+      369.9537658691406,
+      92.13629913330078,
+      481.4507751464844,
+      131.64634704589844
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.7734375,
+    "xyxy": [
+      430.4316711425781,
+      71.22677612304688,
+      515.986328125,
+      121.07427215576172
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.78125,
+    "xyxy": [
+      338.3728942871094,
+      191.16590881347656,
+      516.0604858398438,
+      261.86041259765625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.57421875,
+    "xyxy": [
+      326.5790710449219,
+      90.7140884399414,
+      341.5613708496094,
+      122.81510925292969
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.74609375,
+    "xyxy": [
+      410.88690185546875,
+      158.14976501464844,
+      515.8919067382812,
+      204.59228515625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.66015625,
+    "xyxy": [
+      481.7471923828125,
+      201.6250457763672,
+      515.4503784179688,
+      221.25892639160156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.6953125,
+    "xyxy": [
+      480.396240234375,
+      176.78990173339844,
+      515.9140014648438,
+      203.61451721191406
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.73046875,
+    "xyxy": [
+      337.9543762207031,
+      81.4792251586914,
+      441.6299743652344,
+      161.35726928710938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "no_bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.73046875,
+    "xyxy": [
+      431.55413818359375,
+      121.11030578613281,
+      516.4762573242188,
+      160.36605834960938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      368.75750732421875,
+      254.42535400390625,
+      448.317138671875,
+      344.4577941894531
+    ],
+    "source_xyxy": [
+      421.0,
+      239.0,
+      442.0,
+      254.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      368.8561096191406,
+      254.50192260742188,
+      448.3647155761719,
+      344.4782409667969
+    ],
+    "source_xyxy": [
+      337.0,
+      262.0,
+      367.0,
+      274.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      215.88758850097656,
+      228.40997314453125,
+      302.7868347167969,
+      310.2432861328125
+    ],
+    "source_xyxy": [
+      177.0,
+      370.0,
+      197.0,
+      384.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.94921875,
+    "xyxy": [
+      203.31298828125,
+      240.1045684814453,
+      224.39944458007812,
+      261.2288818359375
+    ],
+    "source_xyxy": [
+      204.0,
+      240.0,
+      224.0,
+      261.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.92578125,
+    "xyxy": [
+      430.3721008300781,
+      71.25643920898438,
+      515.7492065429688,
+      121.0582275390625
+    ],
+    "source_xyxy": [
+      458.0,
+      195.0,
+      483.0,
+      209.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.91796875,
+    "xyxy": [
+      347.7591552734375,
+      -0.6340266466140747,
+      515.7162475585938,
+      97.21662902832031
+    ],
+    "source_xyxy": [
+      494.0,
+      6.0,
+      511.0,
+      30.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.9296875,
+    "xyxy": [
+      75.13029479980469,
+      176.07373046875,
+      110.05735778808594,
+      196.1968536376953
+    ],
+    "source_xyxy": [
+      75.0,
+      177.0,
+      110.0,
+      197.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      368.6297607421875,
+      254.38455200195312,
+      448.46417236328125,
+      344.58465576171875
+    ],
+    "source_xyxy": [
+      206.0,
+      320.0,
+      236.0,
+      343.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.91796875,
+    "xyxy": [
+      430.4069519042969,
+      71.26499938964844,
+      515.5455322265625,
+      121.020263671875
+    ],
+    "source_xyxy": [
+      481.0,
+      202.0,
+      511.0,
+      220.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 66,
+    "category_name": "rice",
+    "prompt": "rice",
+    "confidence": 0.84375,
+    "xyxy": [
+      102.45764923095703,
+      112.12625885009766,
+      127.9061508178711,
+      143.72064208984375
+    ],
+    "source_xyxy": [
+      104.0,
+      113.0,
+      127.0,
+      143.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.91796875,
+    "xyxy": [
+      430.3782653808594,
+      71.185791015625,
+      515.6116943359375,
+      120.99439239501953
+    ],
+    "source_xyxy": [
+      481.0,
+      177.0,
+      511.0,
+      201.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.675537109375,
+      228.45404052734375,
+      302.7908935546875,
+      310.1595153808594
+    ],
+    "source_xyxy": [
+      318.0,
+      242.0,
+      343.0,
+      274.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      368.48944091796875,
+      254.40496826171875,
+      448.4090576171875,
+      344.59246826171875
+    ],
+    "source_xyxy": [
+      291.0,
+      233.0,
+      320.0,
+      281.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      215.80487060546875,
+      228.45274353027344,
+      302.71527099609375,
+      310.1168212890625
+    ],
+    "source_xyxy": [
+      186.0,
+      340.0,
+      221.0,
+      377.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.96875,
+    "xyxy": [
+      116.94947052001953,
+      245.02227783203125,
+      154.42788696289062,
+      279.509765625
+    ],
+    "source_xyxy": [
+      117.0,
+      245.0,
+      155.0,
+      279.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.9375,
+    "xyxy": [
+      95.11309051513672,
+      225.83543395996094,
+      137.10162353515625,
+      263.4515380859375
+    ],
+    "source_xyxy": [
+      94.0,
+      226.0,
+      137.0,
+      264.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.95703125,
+    "xyxy": [
+      182.5471649169922,
+      258.5577697753906,
+      217.25047302246094,
+      298.1073913574219
+    ],
+    "source_xyxy": [
+      183.0,
+      257.0,
+      217.0,
+      298.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      369.02008056640625,
+      254.57440185546875,
+      448.28045654296875,
+      344.5024108886719
+    ],
+    "source_xyxy": [
+      329.0,
+      328.0,
+      371.0,
+      369.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.6913299560547,
+      228.37490844726562,
+      302.6119689941406,
+      310.0547180175781
+    ],
+    "source_xyxy": [
+      111.0,
+      180.0,
+      147.0,
+      228.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      215.7678680419922,
+      228.47201538085938,
+      302.833984375,
+      310.19696044921875
+    ],
+    "source_xyxy": [
+      103.0,
+      297.0,
+      173.0,
+      346.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      368.7820129394531,
+      254.40933227539062,
+      448.3500671386719,
+      344.5112609863281
+    ],
+    "source_xyxy": [
+      293.0,
+      107.0,
+      325.0,
+      163.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.96875,
+    "xyxy": [
+      150.18316650390625,
+      244.98870849609375,
+      203.83258056640625,
+      279.9501647949219
+    ],
+    "source_xyxy": [
+      150.0,
+      245.0,
+      203.0,
+      280.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      40.83037567138672,
+      198.64495849609375,
+      82.93119812011719,
+      257.1577453613281
+    ],
+    "source_xyxy": [
+      41.0,
+      199.0,
+      81.0,
+      257.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96875,
+    "xyxy": [
+      224.1064453125,
+      105.50883483886719,
+      263.38677978515625,
+      159.64454650878906
+    ],
+    "source_xyxy": [
+      224.0,
+      105.0,
+      263.0,
+      159.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.8089599609375,
+      228.3281707763672,
+      302.84051513671875,
+      310.2771301269531
+    ],
+    "source_xyxy": [
+      171.0,
+      295.0,
+      243.0,
+      336.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      66.66641998291016,
+      131.54547119140625,
+      118.52124786376953,
+      183.1299285888672
+    ],
+    "source_xyxy": [
+      67.0,
+      132.0,
+      118.0,
+      183.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96484375,
+    "xyxy": [
+      171.3320770263672,
+      377.08831787109375,
+      232.2770538330078,
+      424.72607421875
+    ],
+    "source_xyxy": [
+      171.0,
+      377.0,
+      232.0,
+      424.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      119.04019165039062,
+      109.69595336914062,
+      223.31967163085938,
+      181.55116271972656
+    ],
+    "source_xyxy": [
+      147.0,
+      171.0,
+      204.0,
+      222.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.90234375,
+    "xyxy": [
+      469.4672546386719,
+      31.62946319580078,
+      512.2103881835938,
+      95.9847640991211
+    ],
+    "source_xyxy": [
+      467.0,
+      29.0,
+      511.0,
+      98.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.9609375,
+    "xyxy": [
+      430.3160095214844,
+      71.46416473388672,
+      514.324951171875,
+      121.11349487304688
+    ],
+    "source_xyxy": [
+      431.0,
+      72.0,
+      511.0,
+      120.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      431.1665954589844,
+      121.04277038574219,
+      515.03515625,
+      159.836669921875
+    ],
+    "source_xyxy": [
+      432.0,
+      122.0,
+      511.0,
+      159.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96484375,
+    "xyxy": [
+      25.869869232177734,
+      258.3681335449219,
+      101.3958740234375,
+      306.2449035644531
+    ],
+    "source_xyxy": [
+      26.0,
+      259.0,
+      102.0,
+      306.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.96875,
+    "xyxy": [
+      71.1583251953125,
+      186.718017578125,
+      120.23818969726562,
+      244.43551635742188
+    ],
+    "source_xyxy": [
+      71.0,
+      187.0,
+      120.0,
+      244.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      343.4781188964844,
+      119.28404998779297,
+      412.6345520019531,
+      197.48171997070312
+    ],
+    "source_xyxy": [
+      344.0,
+      120.0,
+      411.0,
+      197.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      338.44171142578125,
+      81.05030059814453,
+      439.70806884765625,
+      160.61935424804688
+    ],
+    "source_xyxy": [
+      340.0,
+      81.0,
+      438.0,
+      159.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      409.80743408203125,
+      158.20932006835938,
+      514.9256591796875,
+      204.2748260498047
+    ],
+    "source_xyxy": [
+      410.0,
+      159.0,
+      511.0,
+      204.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.606689453125,
+      228.40679931640625,
+      302.72833251953125,
+      310.10626220703125
+    ],
+    "source_xyxy": [
+      267.0,
+      95.0,
+      325.0,
+      163.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      259.316162109375,
+      413.8686218261719,
+      333.55303955078125,
+      484.99078369140625
+    ],
+    "source_xyxy": [
+      259.0,
+      414.0,
+      333.0,
+      483.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      75.90681457519531,
+      306.07513427734375,
+      174.31796264648438,
+      379.396484375
+    ],
+    "source_xyxy": [
+      75.0,
+      306.0,
+      175.0,
+      379.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96875,
+    "xyxy": [
+      436.1431884765625,
+      245.7751922607422,
+      512.5042724609375,
+      319.9661865234375
+    ],
+    "source_xyxy": [
+      436.0,
+      246.0,
+      511.0,
+      320.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      304.22674560546875,
+      197.45115661621094,
+      405.0679931640625,
+      264.475341796875
+    ],
+    "source_xyxy": [
+      304.0,
+      198.0,
+      405.0,
+      264.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      166.51620483398438,
+      409.0887145996094,
+      265.9559326171875,
+      481.20025634765625
+    ],
+    "source_xyxy": [
+      166.0,
+      410.0,
+      266.0,
+      480.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.98046875,
+    "xyxy": [
+      368.2214660644531,
+      254.13372802734375,
+      448.1548767089844,
+      344.11090087890625
+    ],
+    "source_xyxy": [
+      368.0,
+      255.0,
+      447.0,
+      343.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.98046875,
+    "xyxy": [
+      215.8251953125,
+      227.69430541992188,
+      302.1455078125,
+      309.854736328125
+    ],
+    "source_xyxy": [
+      216.0,
+      228.0,
+      301.0,
+      309.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      198.38253784179688,
+      154.3486785888672,
+      301.55718994140625,
+      239.03106689453125
+    ],
+    "source_xyxy": [
+      198.0,
+      156.0,
+      301.0,
+      239.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 66,
+    "category_name": "rice",
+    "prompt": "rice",
+    "confidence": 0.98046875,
+    "xyxy": [
+      27.228683471679688,
+      -0.5146464109420776,
+      363.59423828125,
+      134.12237548828125
+    ],
+    "source_xyxy": [
+      28.0,
+      0.0,
+      363.0,
+      131.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.9609375,
+    "xyxy": [
+      338.35662841796875,
+      190.8017578125,
+      514.6968383789062,
+      261.3392028808594
+    ],
+    "source_xyxy": [
+      337.0,
+      191.0,
+      511.0,
+      261.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.9765625,
+    "xyxy": [
+      347.9761047363281,
+      -0.31802690029144287,
+      512.4337158203125,
+      96.6709976196289
+    ],
+    "source_xyxy": [
+      348.0,
+      0.0,
+      511.0,
+      97.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 96,
+    "category_name": "French beans",
+    "prompt": "French beans",
+    "confidence": 0.91796875,
+    "xyxy": [
+      338.30474853515625,
+      191.20416259765625,
+      516.083984375,
+      262.06951904296875
+    ],
+    "source_xyxy": [
+      326.0,
+      91.0,
+      482.0,
+      131.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.98046875,
+    "xyxy": [
+      118.81453704833984,
+      109.67620086669922,
+      223.48635864257812,
+      181.24118041992188
+    ],
+    "source_xyxy": [
+      119.0,
+      110.0,
+      223.0,
+      179.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      368.546630859375,
+      254.5094757080078,
+      448.38519287109375,
+      344.59320068359375
+    ],
+    "source_xyxy": [
+      283.0,
+      162.0,
+      315.0,
+      240.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.93359375,
+    "xyxy": [
+      221.47824096679688,
+      309.33001708984375,
+      386.2528991699219,
+      410.6979675292969
+    ],
+    "source_xyxy": [
+      219.0,
+      312.0,
+      387.0,
+      408.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      368.58111572265625,
+      254.2423858642578,
+      448.39990234375,
+      344.4539489746094
+    ],
+    "source_xyxy": [
+      231.0,
+      318.0,
+      360.0,
+      412.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.8410186767578,
+      228.4259796142578,
+      302.78759765625,
+      310.09375
+    ],
+    "source_xyxy": [
+      89.0,
+      266.0,
+      178.0,
+      329.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 20,
+    "category_name": "dried cranberries",
+    "prompt": "dried cranberries",
+    "confidence": 0.9609375,
+    "xyxy": [
+      139.236572265625,
+      220.10235595703125,
+      209.74655151367188,
+      280.21893310546875
+    ],
+    "source_xyxy": [
+      140.0,
+      220.0,
+      209.0,
+      280.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      215.62033081054688,
+      228.30191040039062,
+      302.8965759277344,
+      310.0285949707031
+    ],
+    "source_xyxy": [
+      238.0,
+      406.0,
+      327.0,
+      454.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.8321075439453,
+      228.6788787841797,
+      302.68927001953125,
+      310.1022644042969
+    ],
+    "source_xyxy": [
+      280.0,
+      267.0,
+      442.0,
+      329.0
+    ]
+  },
+  {
+    "image_id": 0,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      215.5503692626953,
+      228.42811584472656,
+      302.6232604980469,
+      310.0118103027344
+    ],
+    "source_xyxy": [
+      312.0,
+      130.0,
+      372.0,
+      194.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.9375,
+    "xyxy": [
+      352.3337097167969,
+      90.805908203125,
+      482.2377014160156,
+      211.10140991210938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.8125,
+    "xyxy": [
+      236.42323303222656,
+      264.7433776855469,
+      422.0657958984375,
+      467.6918029785156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.51171875,
+    "xyxy": [
+      233.6491241455078,
+      265.4997863769531,
+      361.45751953125,
+      401.155517578125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.91796875,
+    "xyxy": [
+      103.9468765258789,
+      295.79693603515625,
+      257.5358581542969,
+      469.9619140625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.89453125,
+    "xyxy": [
+      91.68583679199219,
+      127.52462005615234,
+      162.5648193359375,
+      204.974853515625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.75,
+    "xyxy": [
+      279.3811340332031,
+      203.1616973876953,
+      436.9978942871094,
+      319.5390625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.75390625,
+    "xyxy": [
+      155.14968872070312,
+      110.91387939453125,
+      231.86041259765625,
+      163.8060302734375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.6171875,
+    "xyxy": [
+      234.16049194335938,
+      264.8484191894531,
+      420.2455749511719,
+      401.8328857421875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.85546875,
+    "xyxy": [
+      141.38914489746094,
+      158.34210205078125,
+      350.63568115234375,
+      297.96759033203125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.91796875,
+    "xyxy": [
+      248.4621124267578,
+      95.2959976196289,
+      365.32086181640625,
+      200.83758544921875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.59765625,
+    "xyxy": [
+      330.27020263671875,
+      203.08262634277344,
+      436.7750244140625,
+      319.4177551269531
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8828125,
+    "xyxy": [
+      178.25038146972656,
+      48.4914665222168,
+      304.8860778808594,
+      93.3362045288086
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.63671875,
+    "xyxy": [
+      52.33610916137695,
+      90.26142120361328,
+      104.22303771972656,
+      104.84346008300781
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.58984375,
+    "xyxy": [
+      36.87428665161133,
+      59.49827194213867,
+      128.7593536376953,
+      99.28838348388672
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.75390625,
+    "xyxy": [
+      -1.5221920013427734,
+      88.77141571044922,
+      45.74360656738281,
+      111.07527160644531
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.7890625,
+    "xyxy": [
+      28.859405517578125,
+      74.54376983642578,
+      159.86248779296875,
+      137.7667236328125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.5546875,
+    "xyxy": [
+      52.87287521362305,
+      0.7833903431892395,
+      88.3607177734375,
+      51.93695068359375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.84375,
+    "xyxy": [
+      -0.7103900909423828,
+      29.604454040527344,
+      28.219404220581055,
+      61.62327575683594
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.80859375,
+    "xyxy": [
+      146.92686462402344,
+      68.21540069580078,
+      243.1956329345703,
+      116.80590057373047
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.6953125,
+    "xyxy": [
+      211.2627410888672,
+      91.11483001708984,
+      269.072998046875,
+      122.32762908935547
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.859375,
+    "xyxy": [
+      -1.1641731262207031,
+      132.80758666992188,
+      97.07972717285156,
+      169.1301727294922
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.73046875,
+    "xyxy": [
+      30.80593490600586,
+      -0.2958507835865021,
+      87.98387145996094,
+      57.03547286987305
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.5703125,
+    "xyxy": [
+      94.76167297363281,
+      94.41947937011719,
+      160.63143920898438,
+      137.16168212890625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.86328125,
+    "xyxy": [
+      263.2283630371094,
+      51.328208923339844,
+      349.1370544433594,
+      109.42095184326172
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.75390625,
+    "xyxy": [
+      77.06842803955078,
+      1.723777413368225,
+      180.4383544921875,
+      46.91277313232422
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.50390625,
+    "xyxy": [
+      30.299280166625977,
+      -1.368232011795044,
+      60.89703369140625,
+      56.75041198730469
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8046875,
+    "xyxy": [
+      128.65200805664062,
+      28.953901290893555,
+      258.65966796875,
+      72.81330108642578
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.90625,
+    "xyxy": [
+      203.6601104736328,
+      -1.0142639875411987,
+      319.12274169921875,
+      66.5644302368164
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.71875,
+    "xyxy": [
+      -1.266632080078125,
+      41.91582489013672,
+      129.5159912109375,
+      93.04293060302734
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.64453125,
+    "xyxy": [
+      -1.2947463989257812,
+      100.93004608154297,
+      86.60029602050781,
+      139.59376525878906
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.78515625,
+    "xyxy": [
+      -1.5218544006347656,
+      443.2880554199219,
+      40.566280364990234,
+      470.4554443359375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.79296875,
+    "xyxy": [
+      -1.1478767395019531,
+      237.48362731933594,
+      48.2303581237793,
+      284.0428466796875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.609375,
+    "xyxy": [
+      -1.1942009925842285,
+      235.4192352294922,
+      16.626434326171875,
+      251.97113037109375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.70703125,
+    "xyxy": [
+      23.854904174804688,
+      195.36976623535156,
+      52.971580505371094,
+      223.33688354492188
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.81640625,
+    "xyxy": [
+      49.738197326660156,
+      320.1763610839844,
+      95.5229721069336,
+      365.26776123046875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.80859375,
+    "xyxy": [
+      51.91069412231445,
+      257.050537109375,
+      112.18667602539062,
+      296.03076171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.71484375,
+    "xyxy": [
+      40.19078063964844,
+      159.78367614746094,
+      89.72830200195312,
+      207.7555694580078
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.88671875,
+    "xyxy": [
+      60.03761291503906,
+      345.23638916015625,
+      118.17103576660156,
+      404.51226806640625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8828125,
+    "xyxy": [
+      22.452678680419922,
+      279.38427734375,
+      83.81112670898438,
+      338.93115234375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8515625,
+    "xyxy": [
+      86.00574493408203,
+      295.2025146484375,
+      133.9508056640625,
+      330.145263671875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.86328125,
+    "xyxy": [
+      111.77189636230469,
+      240.30784606933594,
+      153.2769012451172,
+      295.3111877441406
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.671875,
+    "xyxy": [
+      -0.7707099914550781,
+      199.59483337402344,
+      19.690126419067383,
+      235.410400390625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.84765625,
+    "xyxy": [
+      -0.9552488327026367,
+      398.326171875,
+      21.520172119140625,
+      459.3467102050781
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8203125,
+    "xyxy": [
+      22.67459487915039,
+      203.31649780273438,
+      91.22409057617188,
+      241.43373107910156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.76953125,
+    "xyxy": [
+      80.5806884765625,
+      236.3620147705078,
+      116.04684448242188,
+      264.9298095703125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.83203125,
+    "xyxy": [
+      18.52831268310547,
+      340.0381774902344,
+      59.111549377441406,
+      391.97930908203125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.75,
+    "xyxy": [
+      -0.7924489974975586,
+      368.0762939453125,
+      19.78384780883789,
+      394.9571533203125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.703125,
+    "xyxy": [
+      102.4520263671875,
+      226.55349731445312,
+      140.5701141357422,
+      245.38670349121094
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8125,
+    "xyxy": [
+      -0.5311927795410156,
+      272.84259033203125,
+      34.25175094604492,
+      326.0570373535156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.81640625,
+    "xyxy": [
+      -0.31010913848876953,
+      323.9764099121094,
+      17.88208770751953,
+      367.01190185546875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.7109375,
+    "xyxy": [
+      121.73440551757812,
+      283.6264953613281,
+      180.24649047851562,
+      318.3973693847656
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.62109375,
+    "xyxy": [
+      96.92474365234375,
+      329.43560791015625,
+      125.30595397949219,
+      352.7943420410156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8515625,
+    "xyxy": [
+      82.94686889648438,
+      414.879150390625,
+      122.88925170898438,
+      470.168701171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.6796875,
+    "xyxy": [
+      -1.4378767013549805,
+      170.60459899902344,
+      28.72296142578125,
+      203.7489013671875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8671875,
+    "xyxy": [
+      88.3038330078125,
+      183.6769256591797,
+      140.2646026611328,
+      228.11862182617188
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.8203125,
+    "xyxy": [
+      3.6335906982421875,
+      376.4877624511719,
+      44.3256721496582,
+      418.9354553222656
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "no_bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.875,
+    "xyxy": [
+      40.0561408996582,
+      400.8250732421875,
+      80.80979919433594,
+      470.5692443847656
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.03620910644531,
+      345.10528564453125,
+      118.09983825683594,
+      404.4635925292969
+    ],
+    "source_xyxy": [
+      0.0,
+      233.0,
+      17.0,
+      251.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      60.0037956237793,
+      345.00634765625,
+      118.18710327148438,
+      404.4424743652344
+    ],
+    "source_xyxy": [
+      92.0,
+      213.0,
+      111.0,
+      229.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.03131866455078,
+      344.8435974121094,
+      118.21050262451172,
+      404.3876037597656
+    ],
+    "source_xyxy": [
+      74.0,
+      161.0,
+      91.0,
+      180.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.04869842529297,
+      345.1724853515625,
+      118.20001983642578,
+      404.3960876464844
+    ],
+    "source_xyxy": [
+      0.0,
+      367.0,
+      19.0,
+      394.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.0837287902832,
+      345.22442626953125,
+      118.11306762695312,
+      404.4590148925781
+    ],
+    "source_xyxy": [
+      0.0,
+      206.0,
+      16.0,
+      233.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.073883056640625,
+      345.1866149902344,
+      118.19619750976562,
+      404.3524169921875
+    ],
+    "source_xyxy": [
+      76.0,
+      272.0,
+      97.0,
+      295.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.93359375,
+    "xyxy": [
+      60.07383728027344,
+      345.0836486816406,
+      118.20323181152344,
+      404.5392150878906
+    ],
+    "source_xyxy": [
+      0.0,
+      249.0,
+      17.0,
+      283.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      59.91851806640625,
+      345.16314697265625,
+      118.12255859375,
+      404.3075256347656
+    ],
+    "source_xyxy": [
+      98.0,
+      329.0,
+      125.0,
+      351.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9453125,
+    "xyxy": [
+      59.96512985229492,
+      345.05865478515625,
+      118.22940063476562,
+      404.2658996582031
+    ],
+    "source_xyxy": [
+      103.0,
+      226.0,
+      140.0,
+      245.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9453125,
+    "xyxy": [
+      60.03184127807617,
+      345.18896484375,
+      118.11529541015625,
+      404.4388122558594
+    ],
+    "source_xyxy": [
+      25.0,
+      194.0,
+      52.0,
+      221.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9453125,
+    "xyxy": [
+      -0.12520694732666016,
+      323.590087890625,
+      17.857864379882812,
+      366.51214599609375
+    ],
+    "source_xyxy": [
+      0.0,
+      322.0,
+      18.0,
+      365.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      -0.40197181701660156,
+      29.656963348388672,
+      28.396907806396484,
+      61.137325286865234
+    ],
+    "source_xyxy": [
+      0.0,
+      29.0,
+      28.0,
+      61.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      81.8311538696289,
+      236.8611297607422,
+      115.69393157958984,
+      264.62860107421875
+    ],
+    "source_xyxy": [
+      83.0,
+      236.0,
+      115.0,
+      264.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.953125,
+    "xyxy": [
+      -0.6104764938354492,
+      398.40313720703125,
+      21.21295166015625,
+      459.0303649902344
+    ],
+    "source_xyxy": [
+      0.0,
+      398.0,
+      21.0,
+      458.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      203.85508728027344,
+      -1.0212080478668213,
+      319.2767333984375,
+      66.70153045654297
+    ],
+    "source_xyxy": [
+      212.0,
+      93.0,
+      272.0,
+      122.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.95703125,
+    "xyxy": [
+      3.475973129272461,
+      376.6897277832031,
+      43.97544860839844,
+      417.07269287109375
+    ],
+    "source_xyxy": [
+      4.0,
+      376.0,
+      44.0,
+      416.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.13371276855469,
+      345.3032531738281,
+      118.08177185058594,
+      404.35662841796875
+    ],
+    "source_xyxy": [
+      19.0,
+      339.0,
+      58.0,
+      389.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.96484375,
+    "xyxy": [
+      85.664794921875,
+      294.8046875,
+      133.56600952148438,
+      329.54339599609375
+    ],
+    "source_xyxy": [
+      86.0,
+      294.0,
+      133.0,
+      329.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      -0.3742332458496094,
+      272.37530517578125,
+      33.832298278808594,
+      324.56195068359375
+    ],
+    "source_xyxy": [
+      0.0,
+      271.0,
+      33.0,
+      323.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      88.21809387207031,
+      183.5861358642578,
+      139.80117797851562,
+      227.40367126464844
+    ],
+    "source_xyxy": [
+      88.0,
+      183.0,
+      140.0,
+      226.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.953125,
+    "xyxy": [
+      51.81244659423828,
+      257.2486877441406,
+      113.37041473388672,
+      296.0943908691406
+    ],
+    "source_xyxy": [
+      52.0,
+      257.0,
+      114.0,
+      295.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9375,
+    "xyxy": [
+      60.20622253417969,
+      345.25762939453125,
+      118.12522888183594,
+      404.4356384277344
+    ],
+    "source_xyxy": [
+      7.0,
+      236.0,
+      47.0,
+      280.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.953125,
+    "xyxy": [
+      39.79682922363281,
+      159.42225646972656,
+      88.47325134277344,
+      205.8211669921875
+    ],
+    "source_xyxy": [
+      40.0,
+      159.0,
+      88.0,
+      205.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9453125,
+    "xyxy": [
+      22.151432037353516,
+      204.37677001953125,
+      90.2022705078125,
+      241.14581298828125
+    ],
+    "source_xyxy": [
+      23.0,
+      204.0,
+      89.0,
+      240.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      263.01458740234375,
+      51.56748580932617,
+      348.51727294921875,
+      109.29859924316406
+    ],
+    "source_xyxy": [
+      264.0,
+      51.0,
+      348.0,
+      108.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.96484375,
+    "xyxy": [
+      110.83541107177734,
+      240.09449768066406,
+      152.79544067382812,
+      295.35516357421875
+    ],
+    "source_xyxy": [
+      111.0,
+      240.0,
+      153.0,
+      295.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      204.0919189453125,
+      -0.9574407339096069,
+      318.62860107421875,
+      66.76838684082031
+    ],
+    "source_xyxy": [
+      204.0,
+      0.0,
+      318.0,
+      67.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.96875,
+    "xyxy": [
+      40.39603042602539,
+      400.9444885253906,
+      80.95614624023438,
+      469.90985107421875
+    ],
+    "source_xyxy": [
+      41.0,
+      401.0,
+      81.0,
+      469.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.97265625,
+    "xyxy": [
+      59.924217224121094,
+      345.1605224609375,
+      117.65216827392578,
+      403.7864990234375
+    ],
+    "source_xyxy": [
+      60.0,
+      345.0,
+      117.0,
+      403.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96484375,
+    "xyxy": [
+      -1.1884765625,
+      132.79574584960938,
+      97.12727355957031,
+      168.90206909179688
+    ],
+    "source_xyxy": [
+      0.0,
+      132.0,
+      97.0,
+      169.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9453125,
+    "xyxy": [
+      76.27618408203125,
+      2.173736095428467,
+      180.40158081054688,
+      48.77976608276367
+    ],
+    "source_xyxy": [
+      76.0,
+      3.0,
+      180.0,
+      49.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      203.862060546875,
+      -0.9764553308486938,
+      318.89404296875,
+      66.47828674316406
+    ],
+    "source_xyxy": [
+      127.0,
+      29.0,
+      257.0,
+      72.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      177.55706787109375,
+      48.46413803100586,
+      304.14251708984375,
+      93.67852783203125
+    ],
+    "source_xyxy": [
+      178.0,
+      49.0,
+      304.0,
+      92.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9453125,
+    "xyxy": [
+      203.788330078125,
+      -1.1701489686965942,
+      319.04638671875,
+      66.60313415527344
+    ],
+    "source_xyxy": [
+      0.0,
+      42.0,
+      128.0,
+      98.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9453125,
+    "xyxy": [
+      203.76942443847656,
+      -1.2074602842330933,
+      319.0046691894531,
+      66.56668090820312
+    ],
+    "source_xyxy": [
+      23.0,
+      75.0,
+      160.0,
+      139.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.97265625,
+    "xyxy": [
+      236.8636474609375,
+      264.00628662109375,
+      421.44140625,
+      400.247314453125
+    ],
+    "source_xyxy": [
+      240.0,
+      265.0,
+      422.0,
+      399.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9375,
+    "xyxy": [
+      60.00415802001953,
+      344.9465026855469,
+      118.23303985595703,
+      404.4983215332031
+    ],
+    "source_xyxy": [
+      44.0,
+      236.0,
+      82.0,
+      267.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9375,
+    "xyxy": [
+      -1.0364246368408203,
+      170.11123657226562,
+      33.09845733642578,
+      210.65736389160156
+    ],
+    "source_xyxy": [
+      0.0,
+      169.0,
+      33.0,
+      209.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94140625,
+    "xyxy": [
+      60.07538604736328,
+      345.2433166503906,
+      118.10785675048828,
+      404.3396301269531
+    ],
+    "source_xyxy": [
+      51.0,
+      321.0,
+      94.0,
+      363.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.93359375,
+    "xyxy": [
+      -1.38690185546875,
+      443.3186340332031,
+      40.27630615234375,
+      470.3304443359375
+    ],
+    "source_xyxy": [
+      0.0,
+      443.0,
+      40.0,
+      469.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.96484375,
+    "xyxy": [
+      265.7498779296875,
+      340.2550964355469,
+      421.909912109375,
+      468.615234375
+    ],
+    "source_xyxy": [
+      266.0,
+      339.0,
+      422.0,
+      468.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.9765625,
+    "xyxy": [
+      141.77529907226562,
+      157.88328552246094,
+      349.9556884765625,
+      297.8484802246094
+    ],
+    "source_xyxy": [
+      142.0,
+      158.0,
+      350.0,
+      297.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.984375,
+    "xyxy": [
+      351.09002685546875,
+      91.13150024414062,
+      482.031494140625,
+      210.79930114746094
+    ],
+    "source_xyxy": [
+      351.0,
+      92.0,
+      481.0,
+      211.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.953125,
+    "xyxy": [
+      351.68914794921875,
+      90.78943634033203,
+      482.1572265625,
+      211.2205810546875
+    ],
+    "source_xyxy": [
+      91.0,
+      111.0,
+      231.0,
+      204.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.94921875,
+    "xyxy": [
+      119.86676788330078,
+      283.49737548828125,
+      179.9742889404297,
+      317.6182556152344
+    ],
+    "source_xyxy": [
+      119.0,
+      284.0,
+      179.0,
+      317.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      203.82296752929688,
+      -1.1345709562301636,
+      319.0571594238281,
+      66.50782775878906
+    ],
+    "source_xyxy": [
+      0.0,
+      89.0,
+      45.0,
+      139.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.97265625,
+    "xyxy": [
+      280.6988525390625,
+      202.72454833984375,
+      436.2901611328125,
+      318.969970703125
+    ],
+    "source_xyxy": [
+      279.0,
+      203.0,
+      436.0,
+      318.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.91015625,
+    "xyxy": [
+      60.07080078125,
+      345.2642822265625,
+      118.27458190917969,
+      404.4456481933594
+    ],
+    "source_xyxy": [
+      22.0,
+      278.0,
+      111.0,
+      337.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      30.722047805786133,
+      -0.2833406925201416,
+      88.27852630615234,
+      57.05124282836914
+    ],
+    "source_xyxy": [
+      30.0,
+      0.0,
+      87.0,
+      55.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 95,
+    "category_name": "green beans",
+    "prompt": "green beans",
+    "confidence": 0.9609375,
+    "xyxy": [
+      83.97837829589844,
+      414.413818359375,
+      122.64117431640625,
+      469.33392333984375
+    ],
+    "source_xyxy": [
+      85.0,
+      414.0,
+      121.0,
+      469.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.9765625,
+    "xyxy": [
+      247.50094604492188,
+      95.46416473388672,
+      364.7079162597656,
+      199.5159454345703
+    ],
+    "source_xyxy": [
+      248.0,
+      96.0,
+      363.0,
+      199.0
+    ]
+  },
+  {
+    "image_id": 1,
+    "mode": "bbox",
+    "category_id": 56,
+    "category_name": "shrimp",
+    "prompt": "shrimp",
+    "confidence": 0.98046875,
+    "xyxy": [
+      103.78594207763672,
+      297.2154235839844,
+      256.9179382324219,
+      469.63665771484375
+    ],
+    "source_xyxy": [
+      104.0,
+      295.0,
+      256.0,
+      468.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.734375,
+    "xyxy": [
+      422.1855773925781,
+      19.79280662536621,
+      449.2184143066406,
+      36.37903594970703
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.70703125,
+    "xyxy": [
+      374.0049133300781,
+      17.476848602294922,
+      507.1556091308594,
+      105.57474517822266
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.8046875,
+    "xyxy": [
+      439.8631286621094,
+      70.72359466552734,
+      473.3447570800781,
+      105.42320251464844
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.8828125,
+    "xyxy": [
+      456.574951171875,
+      38.12388610839844,
+      506.52166748046875,
+      78.69037628173828
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.8515625,
+    "xyxy": [
+      391.79443359375,
+      60.786163330078125,
+      444.56494140625,
+      103.6036605834961
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.875,
+    "xyxy": [
+      372.88720703125,
+      17.962594985961914,
+      422.9189453125,
+      63.6932373046875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.8203125,
+    "xyxy": [
+      414.3359069824219,
+      33.56406784057617,
+      454.4570007324219,
+      72.41506958007812
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.6640625,
+    "xyxy": [
+      292.2499084472656,
+      11.814786911010742,
+      325.4710388183594,
+      34.32230758666992
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.7890625,
+    "xyxy": [
+      297.14727783203125,
+      78.1849136352539,
+      345.3006591796875,
+      109.81571960449219
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.7734375,
+    "xyxy": [
+      219.4394989013672,
+      18.947296142578125,
+      259.39532470703125,
+      56.220394134521484
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.77734375,
+    "xyxy": [
+      300.50537109375,
+      31.405006408691406,
+      347.529541015625,
+      80.96417999267578
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.66015625,
+    "xyxy": [
+      264.8895263671875,
+      51.76953125,
+      323.0040283203125,
+      95.709716796875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.7578125,
+    "xyxy": [
+      243.18994140625,
+      74.2552261352539,
+      299.40447998046875,
+      110.64127349853516
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.73828125,
+    "xyxy": [
+      258.6448669433594,
+      14.904691696166992,
+      303.8528137207031,
+      51.15020751953125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.73046875,
+    "xyxy": [
+      225.96719360351562,
+      44.31663131713867,
+      268.31671142578125,
+      92.61810302734375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 52,
+    "category_name": "sauce",
+    "prompt": "sauce",
+    "confidence": 0.84375,
+    "xyxy": [
+      8.4779052734375,
+      182.30752563476562,
+      185.8654022216797,
+      324.2680358886719
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.96484375,
+    "xyxy": [
+      246.89207458496094,
+      110.84378814697266,
+      514.5730590820312,
+      379.4844055175781
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.93359375,
+    "xyxy": [
+      25.34644317626953,
+      40.51051330566406,
+      60.59307098388672,
+      76.96251678466797
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.50390625,
+    "xyxy": [
+      111.61626434326172,
+      48.676734924316406,
+      123.3596420288086,
+      72.65982055664062
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.94921875,
+    "xyxy": [
+      98.75865936279297,
+      69.47528076171875,
+      161.59996032714844,
+      111.93683624267578
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.93359375,
+    "xyxy": [
+      152.44537353515625,
+      41.280677795410156,
+      197.6043701171875,
+      88.98041534423828
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9453125,
+    "xyxy": [
+      118.30909729003906,
+      12.091046333312988,
+      164.4613800048828,
+      70.16718292236328
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9296875,
+    "xyxy": [
+      160.77099609375,
+      86.2134017944336,
+      200.239990234375,
+      111.46037292480469
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.953125,
+    "xyxy": [
+      16.306428909301758,
+      76.26868438720703,
+      79.09503936767578,
+      113.66487121582031
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.77734375,
+    "xyxy": [
+      57.168949127197266,
+      4.724822044372559,
+      107.41667175292969,
+      43.39036178588867
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.91796875,
+    "xyxy": [
+      60.042118072509766,
+      5.92723274230957,
+      117.59463500976562,
+      94.38682556152344
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "no_bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9375,
+    "xyxy": [
+      158.53042602539062,
+      10.70970344543457,
+      195.00778198242188,
+      46.55657958984375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.94921875,
+    "xyxy": [
+      422.21942138671875,
+      19.880130767822266,
+      448.49517822265625,
+      35.0179557800293
+    ],
+    "source_xyxy": [
+      422.0,
+      20.0,
+      448.0,
+      35.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9609375,
+    "xyxy": [
+      16.316043853759766,
+      76.2716293334961,
+      78.91822814941406,
+      113.55818939208984
+    ],
+    "source_xyxy": [
+      160.0,
+      87.0,
+      200.0,
+      110.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.96484375,
+    "xyxy": [
+      158.3953857421875,
+      10.876686096191406,
+      194.45635986328125,
+      46.23900604248047
+    ],
+    "source_xyxy": [
+      158.0,
+      11.0,
+      194.0,
+      46.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.96484375,
+    "xyxy": [
+      439.9570617675781,
+      70.10909271240234,
+      473.0107116699219,
+      104.38270568847656
+    ],
+    "source_xyxy": [
+      440.0,
+      70.0,
+      473.0,
+      104.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.96484375,
+    "xyxy": [
+      219.73013305664062,
+      18.908336639404297,
+      258.5259094238281,
+      56.60255813598633
+    ],
+    "source_xyxy": [
+      220.0,
+      19.0,
+      258.0,
+      56.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.97265625,
+    "xyxy": [
+      414.827392578125,
+      33.756500244140625,
+      454.37237548828125,
+      71.6714859008789
+    ],
+    "source_xyxy": [
+      416.0,
+      34.0,
+      454.0,
+      71.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.9375,
+    "xyxy": [
+      314.65228271484375,
+      32.102840423583984,
+      346.85028076171875,
+      80.10623931884766
+    ],
+    "source_xyxy": [
+      314.0,
+      32.0,
+      346.0,
+      80.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.96484375,
+    "xyxy": [
+      25.665925979614258,
+      40.59185791015625,
+      61.13880157470703,
+      76.01065826416016
+    ],
+    "source_xyxy": [
+      26.0,
+      41.0,
+      62.0,
+      76.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.95703125,
+    "xyxy": [
+      297.5576477050781,
+      76.44537353515625,
+      344.5192565917969,
+      108.66448974609375
+    ],
+    "source_xyxy": [
+      298.0,
+      76.0,
+      344.0,
+      108.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.95703125,
+    "xyxy": [
+      258.7639465332031,
+      13.74666976928711,
+      302.9114074707031,
+      49.77378845214844
+    ],
+    "source_xyxy": [
+      259.0,
+      14.0,
+      302.0,
+      49.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.953125,
+    "xyxy": [
+      242.32577514648438,
+      75.24122619628906,
+      297.5989685058594,
+      109.75164794921875
+    ],
+    "source_xyxy": [
+      242.0,
+      76.0,
+      297.0,
+      109.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 40,
+    "category_name": "pineapple",
+    "prompt": "pineapple",
+    "confidence": 0.9609375,
+    "xyxy": [
+      226.28848266601562,
+      44.49956512451172,
+      266.3998718261719,
+      90.98521423339844
+    ],
+    "source_xyxy": [
+      226.0,
+      45.0,
+      267.0,
+      91.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.96875,
+    "xyxy": [
+      152.38165283203125,
+      40.72450256347656,
+      197.01873779296875,
+      87.93502044677734
+    ],
+    "source_xyxy": [
+      153.0,
+      41.0,
+      196.0,
+      88.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.984375,
+    "xyxy": [
+      455.89990234375,
+      38.07147216796875,
+      505.9212646484375,
+      78.12467193603516
+    ],
+    "source_xyxy": [
+      456.0,
+      38.0,
+      505.0,
+      78.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.98046875,
+    "xyxy": [
+      373.1521301269531,
+      17.99608039855957,
+      422.7867126464844,
+      63.145774841308594
+    ],
+    "source_xyxy": [
+      373.0,
+      18.0,
+      422.0,
+      63.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 35,
+    "category_name": "olives",
+    "prompt": "olives",
+    "confidence": 0.98046875,
+    "xyxy": [
+      391.34381103515625,
+      60.83643341064453,
+      443.86676025390625,
+      103.2579574584961
+    ],
+    "source_xyxy": [
+      391.0,
+      61.0,
+      443.0,
+      103.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9765625,
+    "xyxy": [
+      16.19243621826172,
+      76.2771987915039,
+      78.70691680908203,
+      113.36656951904297
+    ],
+    "source_xyxy": [
+      16.0,
+      76.0,
+      78.0,
+      113.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.9765625,
+    "xyxy": [
+      98.75133514404297,
+      69.8157958984375,
+      161.14639282226562,
+      111.37185668945312
+    ],
+    "source_xyxy": [
+      99.0,
+      70.0,
+      161.0,
+      111.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.97265625,
+    "xyxy": [
+      116.54931640625,
+      12.029511451721191,
+      164.69418334960938,
+      69.96478271484375
+    ],
+    "source_xyxy": [
+      116.0,
+      12.0,
+      164.0,
+      70.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 73,
+    "category_name": "tomato",
+    "prompt": "tomato",
+    "confidence": 0.97265625,
+    "xyxy": [
+      59.71369934082031,
+      4.936197280883789,
+      117.36508178710938,
+      93.72527313232422
+    ],
+    "source_xyxy": [
+      59.0,
+      6.0,
+      117.0,
+      93.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 52,
+    "category_name": "sauce",
+    "prompt": "sauce",
+    "confidence": 0.9921875,
+    "xyxy": [
+      8.651321411132812,
+      182.73709106445312,
+      185.468017578125,
+      323.2618103027344
+    ],
+    "source_xyxy": [
+      9.0,
+      183.0,
+      185.0,
+      322.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.96875,
+    "xyxy": [
+      248.2217559814453,
+      206.28598022460938,
+      458.8436279296875,
+      378.37689208984375
+    ],
+    "source_xyxy": [
+      248.0,
+      206.0,
+      467.0,
+      378.0
+    ]
+  },
+  {
+    "image_id": 2,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.9765625,
+    "xyxy": [
+      257.1256103515625,
+      111.48621368408203,
+      512.8137817382812,
+      378.14471435546875
+    ],
+    "source_xyxy": [
+      258.0,
+      112.0,
+      511.0,
+      378.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.51171875,
+    "xyxy": [
+      12.798316955566406,
+      194.86427307128906,
+      253.58621215820312,
+      382.3352966308594
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.8125,
+    "xyxy": [
+      13.289413452148438,
+      28.463504791259766,
+      457.982421875,
+      383.9476318359375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.58203125,
+    "xyxy": [
+      24.02911376953125,
+      232.1370849609375,
+      457.6893615722656,
+      383.9828796386719
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.82421875,
+    "xyxy": [
+      317.7499694824219,
+      43.101253509521484,
+      368.3695373535156,
+      91.05522155761719
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.6640625,
+    "xyxy": [
+      284.0917663574219,
+      110.31431579589844,
+      356.7729797363281,
+      154.80294799804688
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.83203125,
+    "xyxy": [
+      270.0376892089844,
+      34.3294677734375,
+      323.0775451660156,
+      90.39089965820312
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.51953125,
+    "xyxy": [
+      307.1681823730469,
+      76.839599609375,
+      337.1596984863281,
+      109.72467041015625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 4,
+    "category_name": "chocolate",
+    "prompt": "chocolate",
+    "confidence": 0.97265625,
+    "xyxy": [
+      306.9554748535156,
+      75.82159423828125,
+      336.4663391113281,
+      109.20966339111328
+    ],
+    "source_xyxy": [
+      307.0,
+      75.0,
+      336.0,
+      109.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.9765625,
+    "xyxy": [
+      318.4311828613281,
+      43.077247619628906,
+      367.4606018066406,
+      90.41053009033203
+    ],
+    "source_xyxy": [
+      319.0,
+      43.0,
+      367.0,
+      90.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.98046875,
+    "xyxy": [
+      269.9887390136719,
+      34.310577392578125,
+      322.3836975097656,
+      89.78466796875
+    ],
+    "source_xyxy": [
+      270.0,
+      34.0,
+      322.0,
+      89.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.98828125,
+    "xyxy": [
+      13.392486572265625,
+      46.515438079833984,
+      458.9986877441406,
+      383.505126953125
+    ],
+    "source_xyxy": [
+      12.0,
+      47.0,
+      457.0,
+      382.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 4,
+    "category_name": "chocolate",
+    "prompt": "chocolate",
+    "confidence": 0.9921875,
+    "xyxy": [
+      191.54226684570312,
+      8.93301773071289,
+      393.7615661621094,
+      240.4094696044922
+    ],
+    "source_xyxy": [
+      192.0,
+      8.0,
+      394.0,
+      240.0
+    ]
+  },
+  {
+    "image_id": 3,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.9765625,
+    "xyxy": [
+      284.01043701171875,
+      110.52241516113281,
+      356.15411376953125,
+      153.8424072265625
+    ],
+    "source_xyxy": [
+      284.0,
+      110.0,
+      356.0,
+      153.0
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 52,
+    "category_name": "sauce",
+    "prompt": "sauce",
+    "confidence": 0.87890625,
+    "xyxy": [
+      692.5173950195312,
+      437.5369873046875,
+      979.3283081054688,
+      624.6900634765625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.71875,
+    "xyxy": [
+      158.42694091796875,
+      669.2855224609375,
+      778.0355834960938,
+      998.872314453125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.609375,
+    "xyxy": [
+      565.195556640625,
+      625.668701171875,
+      869.999755859375,
+      898.5079345703125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.65234375,
+    "xyxy": [
+      170.38331604003906,
+      631.336669921875,
+      662.4976806640625,
+      877.5435791015625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.6171875,
+    "xyxy": [
+      178.13491821289062,
+      314.87225341796875,
+      628.8807373046875,
+      622.6884155273438
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.6796875,
+    "xyxy": [
+      168.0262451171875,
+      493.25384521484375,
+      757.0379638671875,
+      874.1759643554688
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.51953125,
+    "xyxy": [
+      242.82626342773438,
+      278.42950439453125,
+      528.4757080078125,
+      466.81561279296875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.69921875,
+    "xyxy": [
+      153.20050048828125,
+      545.06005859375,
+      746.1008911132812,
+      904.49951171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.59375,
+    "xyxy": [
+      298.44586181640625,
+      222.04335021972656,
+      648.6715698242188,
+      591.2124633789062
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.6640625,
+    "xyxy": [
+      133.2504119873047,
+      375.95635986328125,
+      553.5125122070312,
+      568.5018920898438
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.5703125,
+    "xyxy": [
+      586.79248046875,
+      276.9288024902344,
+      933.9117431640625,
+      367.7211608886719
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.62890625,
+    "xyxy": [
+      585.1846313476562,
+      161.27410888671875,
+      929.9315795898438,
+      354.27447509765625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.63671875,
+    "xyxy": [
+      501.11016845703125,
+      69.70462799072266,
+      876.2568969726562,
+      296.6506652832031
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "no_bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.703125,
+    "xyxy": [
+      547.4358520507812,
+      27.7139892578125,
+      836.5111694335938,
+      258.723388671875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.97265625,
+    "xyxy": [
+      546.4036865234375,
+      24.871238708496094,
+      835.0645751953125,
+      258.01947021484375
+    ],
+    "source_xyxy": [
+      543.6666666666666,
+      18.66666666666668,
+      829.2222222222223,
+      260.88888888888886
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.96875,
+    "xyxy": [
+      500.6116943359375,
+      69.40980529785156,
+      877.7979736328125,
+      295.76715087890625
+    ],
+    "source_xyxy": [
+      498.1111111111111,
+      65.33333333333334,
+      878.1111111111112,
+      293.1111111111111
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.953125,
+    "xyxy": [
+      159.09646606445312,
+      669.8153686523438,
+      778.20654296875,
+      998.7548217773438
+    ],
+    "source_xyxy": [
+      293.66666666666663,
+      215.03030303030306,
+      624.7777777777777,
+      396.4444444444444
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.98046875,
+    "xyxy": [
+      157.71585083007812,
+      669.2515258789062,
+      778.77392578125,
+      997.2568969726562
+    ],
+    "source_xyxy": [
+      157.0,
+      663.1111111111111,
+      783.6666666666666,
+      999.7777777777777
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.96875,
+    "xyxy": [
+      158.8853759765625,
+      669.4990234375,
+      778.338134765625,
+      998.8997802734375
+    ],
+    "source_xyxy": [
+      166.41176470588238,
+      617.5147058823529,
+      673.029411764706,
+      877.0735294117646
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.9609375,
+    "xyxy": [
+      158.50772094726562,
+      669.4674682617188,
+      778.3394775390625,
+      999.1497192382812
+    ],
+    "source_xyxy": [
+      145.82352941176475,
+      539.5735294117646,
+      742.8823529411765,
+      903.5441176470588
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.96484375,
+    "xyxy": [
+      158.59732055664062,
+      669.2891845703125,
+      778.418701171875,
+      999.1512451171875
+    ],
+    "source_xyxy": [
+      164.12121212121215,
+      485.33333333333337,
+      758.3235294117648,
+      895.030303030303
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.9609375,
+    "xyxy": [
+      158.06884765625,
+      669.400390625,
+      778.7990112304688,
+      999.5977783203125
+    ],
+    "source_xyxy": [
+      235.63636363636368,
+      479.8787878787879,
+      871.3939393939395,
+      904.121212121212
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.953125,
+    "xyxy": [
+      158.5062255859375,
+      669.7376098632812,
+      778.0645141601562,
+      998.9982299804688
+    ],
+    "source_xyxy": [
+      133.21212121212125,
+      374.42424242424244,
+      572.0,
+      573.8181818181818
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.9609375,
+    "xyxy": [
+      158.534423828125,
+      669.8317260742188,
+      777.91357421875,
+      999.2138061523438
+    ],
+    "source_xyxy": [
+      247.15151515151518,
+      272.00000000000006,
+      630.7878787878788,
+      631.3939393939394
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.953125,
+    "xyxy": [
+      158.92788696289062,
+      670.0987548828125,
+      777.9354248046875,
+      998.982421875
+    ],
+    "source_xyxy": [
+      178.0606060606061,
+      310.7878787878788,
+      449.5757575757576,
+      447.75757575757575
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 54,
+    "category_name": "fish",
+    "prompt": "fish",
+    "confidence": 0.95703125,
+    "xyxy": [
+      158.80810546875,
+      669.5419921875,
+      777.929443359375,
+      999.3311767578125
+    ],
+    "source_xyxy": [
+      399.8787878787879,
+      322.90909090909093,
+      659.2727272727273,
+      595.030303030303
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.94921875,
+    "xyxy": [
+      548.3085327148438,
+      27.140457153320312,
+      835.8413696289062,
+      259.04931640625
+    ],
+    "source_xyxy": [
+      597.4545454545454,
+      151.39393939393943,
+      930.1818181818181,
+      335.03030303030306
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.94921875,
+    "xyxy": [
+      585.3213500976562,
+      276.5128479003906,
+      935.5115356445312,
+      368.7393493652344
+    ],
+    "source_xyxy": [
+      585.3333333333333,
+      272.00000000000006,
+      939.8787878787878,
+      370.7878787878788
+    ]
+  },
+  {
+    "image_id": 4,
+    "mode": "bbox",
+    "category_id": 52,
+    "category_name": "sauce",
+    "prompt": "sauce",
+    "confidence": 0.984375,
+    "xyxy": [
+      690.9800415039062,
+      433.8450622558594,
+      980.7553100585938,
+      624.809326171875
+    ],
+    "source_xyxy": [
+      689.2357723577236,
+      430.6991869918699,
+      980.2926829268292,
+      625.0081300813008
+    ]
+  },
+  {
+    "image_id": 5,
+    "mode": "no_bbox",
+    "category_id": 48,
+    "category_name": "chicken duck",
+    "prompt": "chicken duck",
+    "confidence": 0.63671875,
+    "xyxy": [
+      63.66632080078125,
+      170.95941162109375,
+      362.5189514160156,
+      339.2034912109375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 5,
+    "mode": "no_bbox",
+    "category_id": 66,
+    "category_name": "rice",
+    "prompt": "rice",
+    "confidence": 0.9375,
+    "xyxy": [
+      76.48381042480469,
+      95.08850860595703,
+      409.2647705078125,
+      250.79718017578125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 5,
+    "mode": "bbox",
+    "category_id": 48,
+    "category_name": "chicken duck",
+    "prompt": "chicken duck",
+    "confidence": 0.9921875,
+    "xyxy": [
+      63.09681701660156,
+      171.211181640625,
+      362.024169921875,
+      338.84661865234375
+    ],
+    "source_xyxy": [
+      63.0,
+      171.0,
+      362.0,
+      338.0
+    ]
+  },
+  {
+    "image_id": 5,
+    "mode": "bbox",
+    "category_id": 66,
+    "category_name": "rice",
+    "prompt": "rice",
+    "confidence": 0.98828125,
+    "xyxy": [
+      76.40640258789062,
+      95.03208923339844,
+      410.28350830078125,
+      250.71902465820312
+    ],
+    "source_xyxy": [
+      76.0,
+      96.0,
+      417.0,
+      251.0
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.89453125,
+    "xyxy": [
+      282.73065185546875,
+      72.60420989990234,
+      305.0935974121094,
+      92.5878677368164
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.52734375,
+    "xyxy": [
+      248.13356018066406,
+      92.7673568725586,
+      263.399658203125,
+      104.1282730102539
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.87109375,
+    "xyxy": [
+      242.14842224121094,
+      87.13462829589844,
+      262.2259216308594,
+      105.70346069335938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.890625,
+    "xyxy": [
+      282.8061218261719,
+      92.45951080322266,
+      305.6153259277344,
+      116.82076263427734
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.6015625,
+    "xyxy": [
+      280.4872741699219,
+      117.75016021728516,
+      293.2738037109375,
+      132.69200134277344
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.83984375,
+    "xyxy": [
+      277.0598449707031,
+      131.64654541015625,
+      299.98260498046875,
+      153.95249938964844
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.87109375,
+    "xyxy": [
+      243.1568603515625,
+      113.60072326660156,
+      257.11279296875,
+      130.21267700195312
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.890625,
+    "xyxy": [
+      248.01065063476562,
+      95.3172836303711,
+      273.60791015625,
+      120.3631591796875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.79296875,
+    "xyxy": [
+      292.9670715332031,
+      81.01074981689453,
+      308.9878234863281,
+      97.23863220214844
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.69140625,
+    "xyxy": [
+      300.3568420410156,
+      133.7592010498047,
+      308.06658935546875,
+      151.7904052734375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.859375,
+    "xyxy": [
+      256.16815185546875,
+      113.57227325439453,
+      281.9588623046875,
+      135.518310546875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.859375,
+    "xyxy": [
+      264.8622131347656,
+      79.5883560180664,
+      287.8946838378906,
+      101.77064514160156
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.60546875,
+    "xyxy": [
+      270.63421630859375,
+      100.05883026123047,
+      278.3080139160156,
+      110.84932708740234
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "no_bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.6640625,
+    "xyxy": [
+      298.79071044921875,
+      122.23170471191406,
+      308.58428955078125,
+      136.631591796875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.9765625,
+    "xyxy": [
+      46.68354415893555,
+      100.09576416015625,
+      109.5634765625,
+      142.51478576660156
+    ],
+    "source_xyxy": [
+      47.49224806201552,
+      100.546511627907,
+      109.1201550387597,
+      142.21317829457365
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.97265625,
+    "xyxy": [
+      -0.5316619873046875,
+      65.2994384765625,
+      47.95912551879883,
+      100.12108612060547
+    ],
+    "source_xyxy": [
+      0.20542635658915742,
+      65.66279069767444,
+      46.7170542635659,
+      99.18992248062017
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.96875,
+    "xyxy": [
+      35.85251998901367,
+      62.10175323486328,
+      70.65309143066406,
+      89.73728942871094
+    ],
+    "source_xyxy": [
+      36.44573643410854,
+      61.98062015503877,
+      70.55426356589149,
+      88.33720930232559
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.9765625,
+    "xyxy": [
+      34.400638580322266,
+      76.50630950927734,
+      91.95242309570312,
+      110.26569366455078
+    ],
+    "source_xyxy": [
+      34.89534883720931,
+      76.12790697674419,
+      91.87209302325583,
+      109.65503875968992
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.9453125,
+    "xyxy": [
+      61.485137939453125,
+      141.10919189453125,
+      120.98694610595703,
+      169.0153045654297
+    ],
+    "source_xyxy": [
+      1.1744186046511729,
+      93.18217054263567,
+      31.213178294573655,
+      106.94186046511629
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.94921875,
+    "xyxy": [
+      61.53155517578125,
+      141.15354919433594,
+      120.97123718261719,
+      168.97024536132812
+    ],
+    "source_xyxy": [
+      3.8875968992248175,
+      101.90310077519379,
+      33.15116279069768,
+      112.94961240310079
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.96484375,
+    "xyxy": [
+      20.969520568847656,
+      107.89116668701172,
+      42.16529846191406,
+      126.36593627929688
+    ],
+    "source_xyxy": [
+      21.13565891472869,
+      108.1046511627907,
+      42.06589147286823,
+      125.9341085271318
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.9453125,
+    "xyxy": [
+      61.411495208740234,
+      141.15899658203125,
+      120.9991455078125,
+      169.0346221923828
+    ],
+    "source_xyxy": [
+      41.67829457364341,
+      104.42248062015506,
+      73.46124031007753,
+      143.18217054263567
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.96484375,
+    "xyxy": [
+      8.992228507995605,
+      117.38356018066406,
+      50.858551025390625,
+      141.64865112304688
+    ],
+    "source_xyxy": [
+      9.313953488372103,
+      117.40697674418607,
+      50.39922480620156,
+      141.63178294573646
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 5,
+    "category_name": "biscuit",
+    "prompt": "biscuit",
+    "confidence": 0.9765625,
+    "xyxy": [
+      61.29645919799805,
+      140.9337921142578,
+      121.28389739990234,
+      168.662109375
+    ],
+    "source_xyxy": [
+      60.864341085271334,
+      140.85658914728683,
+      122.10465116279072,
+      168.37596899224806
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.98046875,
+    "xyxy": [
+      106.49324798583984,
+      128.65037536621094,
+      187.75738525390625,
+      187.00381469726562
+    ],
+    "source_xyxy": [
+      105.82323232323233,
+      128.16161616161617,
+      187.84343434343435,
+      186.48660714285714
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.98046875,
+    "xyxy": [
+      172.03909301757812,
+      141.61228942871094,
+      243.3354034423828,
+      193.3887176513672
+    ],
+    "source_xyxy": [
+      171.8838383838384,
+      142.1010101010101,
+      244.0050505050505,
+      193.40625
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.97265625,
+    "xyxy": [
+      209.32119750976562,
+      167.48678588867188,
+      279.0543518066406,
+      202.9993896484375
+    ],
+    "source_xyxy": [
+      210.2676767676768,
+      167.95959595959596,
+      279.56060606060606,
+      202.50505050505052
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.953125,
+    "xyxy": [
+      237.76377868652344,
+      151.21969604492188,
+      269.32891845703125,
+      166.48301696777344
+    ],
+    "source_xyxy": [
+      238.55050505050505,
+      152.2020202020202,
+      269.25757575757575,
+      166.34343434343435
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.92578125,
+    "xyxy": [
+      176.61822509765625,
+      139.58065795898438,
+      196.09304809570312,
+      150.51852416992188
+    ],
+    "source_xyxy": [
+      176.8181818181818,
+      139.39393939393938,
+      195.9090909090909,
+      151.5151515151515
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.98046875,
+    "xyxy": [
+      195.95394897460938,
+      127.44175720214844,
+      279.6393737792969,
+      159.90965270996094
+    ],
+    "source_xyxy": [
+      196.2121212121212,
+      127.57575757575756,
+      279.2424242424242,
+      159.6969696969697
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 9,
+    "category_name": "cheese butter",
+    "prompt": "cheese butter",
+    "confidence": 0.8828125,
+    "xyxy": [
+      106.64596557617188,
+      128.76890563964844,
+      187.85662841796875,
+      187.27793884277344
+    ],
+    "source_xyxy": [
+      162.01528384279476,
+      172.41484716157206,
+      174.89737991266372,
+      181.36681222707423
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.9765625,
+    "xyxy": [
+      213.86415100097656,
+      54.56007385253906,
+      248.0762481689453,
+      86.8126449584961
+    ],
+    "source_xyxy": [
+      213.6893095768374,
+      54.2271714922049,
+      248.32182628062358,
+      86.18708240534521
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.96875,
+    "xyxy": [
+      208.18104553222656,
+      38.907691955566406,
+      240.21253967285156,
+      60.707984924316406
+    ],
+    "source_xyxy": [
+      208.12138084632514,
+      38.191536748329625,
+      240.74944320712694,
+      60.017817371937646
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.9609375,
+    "xyxy": [
+      213.89364624023438,
+      54.7574577331543,
+      247.99368286132812,
+      86.8631820678711
+    ],
+    "source_xyxy": [
+      243.9,
+      69.1,
+      254.8,
+      86.8
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.96484375,
+    "xyxy": [
+      255.01275634765625,
+      64.92523956298828,
+      282.4020690917969,
+      89.95744323730469
+    ],
+    "source_xyxy": [
+      255.2,
+      64.9,
+      282.7,
+      90.3
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.96484375,
+    "xyxy": [
+      239.47166442871094,
+      39.36494064331055,
+      273.49462890625,
+      68.32147979736328
+    ],
+    "source_xyxy": [
+      240.4,
+      39.0,
+      273.0,
+      68.4
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.95703125,
+    "xyxy": [
+      213.9580078125,
+      54.66918182373047,
+      248.02842712402344,
+      86.7903823852539
+    ],
+    "source_xyxy": [
+      263.6,
+      37.2,
+      285.4,
+      63.0
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 70,
+    "category_name": "potato",
+    "prompt": "potato",
+    "confidence": 0.94921875,
+    "xyxy": [
+      213.79925537109375,
+      54.74703598022461,
+      247.97230529785156,
+      86.85758972167969
+    ],
+    "source_xyxy": [
+      282.3,
+      41.4,
+      306.0,
+      73.2
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.9453125,
+    "xyxy": [
+      241.98216247558594,
+      87.065673828125,
+      262.1277160644531,
+      105.57110595703125
+    ],
+    "source_xyxy": [
+      241.8629550321199,
+      87.2591006423983,
+      262.3126338329765,
+      105.0321199143469
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.94921875,
+    "xyxy": [
+      265.1924133300781,
+      79.82759094238281,
+      287.8502197265625,
+      102.04528045654297
+    ],
+    "source_xyxy": [
+      265.9528907922912,
+      80.51391862955032,
+      287.25910064239827,
+      102.24839400428266
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.95703125,
+    "xyxy": [
+      248.46243286132812,
+      95.24085235595703,
+      274.2518005371094,
+      120.41050720214844
+    ],
+    "source_xyxy": [
+      249.4646680942184,
+      95.71734475374733,
+      274.08993576017133,
+      120.12847965738759
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.94921875,
+    "xyxy": [
+      256.4728698730469,
+      113.62165069580078,
+      281.96368408203125,
+      135.8690185546875
+    ],
+    "source_xyxy": [
+      256.9593147751606,
+      113.81156316916488,
+      281.6916488222698,
+      136.29550321199144
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.9453125,
+    "xyxy": [
+      243.68392944335938,
+      113.40637969970703,
+      256.9654541015625,
+      129.869140625
+    ],
+    "source_xyxy": [
+      244.00428265524624,
+      113.2762312633833,
+      256.8522483940043,
+      129.7644539614561
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.95703125,
+    "xyxy": [
+      283.0935363769531,
+      72.79804992675781,
+      305.0454406738281,
+      92.45819854736328
+    ],
+    "source_xyxy": [
+      283.6188436830835,
+      73.12633832976445,
+      305.13918629550324,
+      92.82655246252676
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.96484375,
+    "xyxy": [
+      282.1176452636719,
+      91.93911743164062,
+      305.5724182128906,
+      116.88291931152344
+    ],
+    "source_xyxy": [
+      281.58458244111347,
+      91.97002141327623,
+      306.0,
+      117.0235546038544
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.91796875,
+    "xyxy": [
+      282.80419921875,
+      92.41603088378906,
+      305.5504455566406,
+      116.74516296386719
+    ],
+    "source_xyxy": [
+      294.64668094218416,
+      81.90578158458244,
+      306.0,
+      93.25481798715204
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.953125,
+    "xyxy": [
+      277.02734375,
+      130.3770294189453,
+      300.87225341796875,
+      154.325927734375
+    ],
+    "source_xyxy": [
+      276.78431372549016,
+      130.2997858672377,
+      301.1307189542484,
+      154.5751633986928
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.94140625,
+    "xyxy": [
+      285.8321533203125,
+      153.47906494140625,
+      305.9082946777344,
+      174.73793029785156
+    ],
+    "source_xyxy": [
+      286.91503267973854,
+      153.59477124183007,
+      306.0,
+      174.50980392156862
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.95703125,
+    "xyxy": [
+      261.75286865234375,
+      149.8598175048828,
+      286.58551025390625,
+      184.5494842529297
+    ],
+    "source_xyxy": [
+      262.73202614379085,
+      149.67320261437908,
+      286.91503267973854,
+      184.640522875817
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 41,
+    "category_name": "grape",
+    "prompt": "grape",
+    "confidence": 0.9296875,
+    "xyxy": [
+      282.6737365722656,
+      72.50971221923828,
+      305.0650329589844,
+      92.560302734375
+    ],
+    "source_xyxy": [
+      301.78431372549016,
+      129.73856209150327,
+      306.0,
+      150.45751633986927
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.8671875,
+    "xyxy": [
+      162.823974609375,
+      81.97913360595703,
+      222.88307189941406,
+      113.8660888671875
+    ],
+    "source_xyxy": [
+      162.11512717536814,
+      82.58902275769745,
+      224.63186077643908,
+      113.64658634538152
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.76953125,
+    "xyxy": [
+      130.1483154296875,
+      102.90467071533203,
+      183.4412384033203,
+      133.6424560546875
+    ],
+    "source_xyxy": [
+      129.85274431057564,
+      103.47255689424364,
+      184.8728246318608,
+      135.06559571619812
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.8828125,
+    "xyxy": [
+      133.15260314941406,
+      102.52286529541016,
+      174.74951171875,
+      108.12102508544922
+    ],
+    "source_xyxy": [
+      133.06559571619812,
+      102.53547523427042,
+      175.50200803212851,
+      108.15796519410978
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.7421875,
+    "xyxy": [
+      128.0581512451172,
+      111.59837341308594,
+      189.25955200195312,
+      140.77304077148438
+    ],
+    "source_xyxy": [
+      128.91566265060243,
+      110.83534136546184,
+      189.2904953145917,
+      138.81392235609104
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.859375,
+    "xyxy": [
+      189.44212341308594,
+      90.60189056396484,
+      223.88613891601562,
+      137.74282836914062
+    ],
+    "source_xyxy": [
+      190.62918340026775,
+      89.55020080321285,
+      223.82864792503347,
+      137.3413654618474
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.89453125,
+    "xyxy": [
+      199.59754943847656,
+      97.52313232421875,
+      242.39141845703125,
+      131.54330444335938
+    ],
+    "source_xyxy": [
+      199.7322623828648,
+      99.45649263721553,
+      243.10575635876842,
+      131.18340026773762
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.796875,
+    "xyxy": [
+      105.29955291748047,
+      99.42923736572266,
+      133.6603546142578,
+      144.21896362304688
+    ],
+    "source_xyxy": [
+      105.08701472556895,
+      98.92101740294511,
+      133.19946452476574,
+      144.03480589022757
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.9140625,
+    "xyxy": [
+      61.0579719543457,
+      30.154823303222656,
+      92.54727935791016,
+      77.39161682128906
+    ],
+    "source_xyxy": [
+      61.1036866359447,
+      29.646697388632873,
+      93.05453149001535,
+      76.95852534562212
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.85546875,
+    "xyxy": [
+      46.626495361328125,
+      35.17204666137695,
+      62.32655334472656,
+      61.907859802246094
+    ],
+    "source_xyxy": [
+      46.66436251920123,
+      35.02304147465438,
+      62.178955453149,
+      61.75115207373272
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.80078125,
+    "xyxy": [
+      55.419551849365234,
+      17.403406143188477,
+      96.07569122314453,
+      47.66121292114258
+    ],
+    "source_xyxy": [
+      56.495391705069125,
+      17.81874039938556,
+      96.28033794162826,
+      45.622119815668206
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.85546875,
+    "xyxy": [
+      30.79094696044922,
+      29.134885787963867,
+      54.88639450073242,
+      55.69984817504883
+    ],
+    "source_xyxy": [
+      30.84254992319508,
+      29.493087557603687,
+      55.112903225806456,
+      55.4531490015361
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.90625,
+    "xyxy": [
+      25.91058349609375,
+      41.65707015991211,
+      47.695030212402344,
+      63.87258529663086
+    ],
+    "source_xyxy": [
+      26.234254992319503,
+      41.16743471582181,
+      47.89324116743472,
+      63.594470046082954
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.8828125,
+    "xyxy": [
+      -0.43192535638809204,
+      57.84797286987305,
+      26.520004272460938,
+      72.83112335205078
+    ],
+    "source_xyxy": [
+      0.7350230414746496,
+      57.45007680491552,
+      27.15591397849462,
+      72.19662058371736
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.83984375,
+    "xyxy": [
+      -0.46801823377609253,
+      34.60187530517578,
+      33.54526138305664,
+      60.29070281982422
+    ],
+    "source_xyxy": [
+      0.12058371735790602,
+      34.40860215053763,
+      32.99308755760369,
+      60.215053763440864
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 67,
+    "category_name": "pie",
+    "prompt": "pie",
+    "confidence": 0.96875,
+    "xyxy": [
+      135.86875915527344,
+      20.99325942993164,
+      207.0624237060547,
+      92.66023254394531
+    ],
+    "source_xyxy": [
+      134.5850439882698,
+      19.794721407624632,
+      208.48533724340177,
+      93.40175953079178
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 67,
+    "category_name": "pie",
+    "prompt": "pie",
+    "confidence": 0.94921875,
+    "xyxy": [
+      151.09140014648438,
+      13.213547706604004,
+      210.123291015625,
+      74.65986633300781
+    ],
+    "source_xyxy": [
+      149.5410557184751,
+      12.903225806451612,
+      211.85777126099708,
+      72.58064516129032
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 67,
+    "category_name": "pie",
+    "prompt": "pie",
+    "confidence": 0.9765625,
+    "xyxy": [
+      85.84939575195312,
+      21.234962463378906,
+      143.6839599609375,
+      85.55059051513672
+    ],
+    "source_xyxy": [
+      85.61143695014664,
+      21.26099706744868,
+      145.87536656891496,
+      85.48387096774194
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 67,
+    "category_name": "pie",
+    "prompt": "pie",
+    "confidence": 0.921875,
+    "xyxy": [
+      95.26818084716797,
+      12.989727973937988,
+      140.96353149414062,
+      32.846153259277344
+    ],
+    "source_xyxy": [
+      96.46187683284458,
+      13.049853372434017,
+      141.32991202346042,
+      30.205278592375365
+    ]
+  },
+  {
+    "image_id": 6,
+    "mode": "bbox",
+    "category_id": 67,
+    "category_name": "pie",
+    "prompt": "pie",
+    "confidence": 0.91796875,
+    "xyxy": [
+      134.0086669921875,
+      11.116751670837402,
+      157.18663024902344,
+      19.90471649169922
+    ],
+    "source_xyxy": [
+      134.291788856305,
+      11.143695014662756,
+      157.60557184750735,
+      20.08797653958944
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.9296875,
+    "xyxy": [
+      319.74560546875,
+      587.4381103515625,
+      488.72930908203125,
+      750.9183349609375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 30,
+    "category_name": "strawberry",
+    "prompt": "strawberry",
+    "confidence": 0.91015625,
+    "xyxy": [
+      490.1049499511719,
+      551.4548950195312,
+      577.6412353515625,
+      618.2290649414062
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 30,
+    "category_name": "strawberry",
+    "prompt": "strawberry",
+    "confidence": 0.9375,
+    "xyxy": [
+      336.7066345214844,
+      521.8087158203125,
+      490.3702697753906,
+      629.0361328125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 32,
+    "category_name": "blueberry",
+    "prompt": "blueberry",
+    "confidence": 0.8203125,
+    "xyxy": [
+      573.2674560546875,
+      578.1473999023438,
+      658.9207153320312,
+      664.9107055664062
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 32,
+    "category_name": "blueberry",
+    "prompt": "blueberry",
+    "confidence": 0.7734375,
+    "xyxy": [
+      577.0344848632812,
+      550.9049682617188,
+      642.2152099609375,
+      589.6557006835938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "no_bbox",
+    "category_id": 42,
+    "category_name": "kiwi",
+    "prompt": "kiwi",
+    "confidence": 0.953125,
+    "xyxy": [
+      483.8865966796875,
+      599.556884765625,
+      592.74462890625,
+      718.44482421875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 32,
+    "category_name": "blueberry",
+    "prompt": "blueberry",
+    "confidence": 0.95703125,
+    "xyxy": [
+      572.8897094726562,
+      578.2642822265625,
+      658.9813232421875,
+      665.0723876953125
+    ],
+    "source_xyxy": [
+      576.0,
+      551.0,
+      642.0,
+      590.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 30,
+    "category_name": "strawberry",
+    "prompt": "strawberry",
+    "confidence": 0.97265625,
+    "xyxy": [
+      489.6140441894531,
+      552.1537475585938,
+      576.9237060546875,
+      617.5359497070312
+    ],
+    "source_xyxy": [
+      489.0,
+      552.0,
+      577.0,
+      616.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 32,
+    "category_name": "blueberry",
+    "prompt": "blueberry",
+    "confidence": 0.9765625,
+    "xyxy": [
+      572.1337890625,
+      578.0706787109375,
+      658.7862548828125,
+      664.15234375
+    ],
+    "source_xyxy": [
+      572.0,
+      578.0,
+      658.0,
+      664.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 30,
+    "category_name": "strawberry",
+    "prompt": "strawberry",
+    "confidence": 0.984375,
+    "xyxy": [
+      336.7707824707031,
+      522.0848388671875,
+      490.1937561035156,
+      629.0418701171875
+    ],
+    "source_xyxy": [
+      336.0,
+      522.0,
+      489.0,
+      628.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 42,
+    "category_name": "kiwi",
+    "prompt": "kiwi",
+    "confidence": 0.984375,
+    "xyxy": [
+      484.44818115234375,
+      599.2855834960938,
+      593.28955078125,
+      717.2615356445312
+    ],
+    "source_xyxy": [
+      484.0,
+      599.0,
+      593.0,
+      718.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 29,
+    "category_name": "banana",
+    "prompt": "banana",
+    "confidence": 0.98828125,
+    "xyxy": [
+      319.6235046386719,
+      587.2468872070312,
+      488.464599609375,
+      750.4708862304688
+    ],
+    "source_xyxy": [
+      320.0,
+      589.0,
+      488.0,
+      750.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.98046875,
+    "xyxy": [
+      53.52275848388672,
+      365.30303955078125,
+      455.85772705078125,
+      706.7581176757812
+    ],
+    "source_xyxy": [
+      55.0,
+      362.0,
+      458.0,
+      709.0
+    ]
+  },
+  {
+    "image_id": 7,
+    "mode": "bbox",
+    "category_id": 58,
+    "category_name": "bread",
+    "prompt": "bread",
+    "confidence": 0.95703125,
+    "xyxy": [
+      59.78233337402344,
+      316.2045593261719,
+      631.7471923828125,
+      561.341552734375
+    ],
+    "source_xyxy": [
+      61.0,
+      315.0,
+      634.0,
+      559.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.91015625,
+    "xyxy": [
+      -0.7221288681030273,
+      91.24663543701172,
+      17.156326293945312,
+      142.4678955078125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9375,
+    "xyxy": [
+      73.45081329345703,
+      17.92929458618164,
+      131.197265625,
+      66.22689056396484
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94140625,
+    "xyxy": [
+      12.141860961914062,
+      32.02312469482422,
+      68.36784362792969,
+      77.75753784179688
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.8984375,
+    "xyxy": [
+      -0.10003089904785156,
+      6.672842502593994,
+      18.37363052368164,
+      48.51172637939453
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      -0.5345039367675781,
+      167.38909912109375,
+      38.73480987548828,
+      252.6539306640625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      34.87326431274414,
+      116.0242919921875,
+      98.454833984375,
+      172.93238830566406
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94140625,
+    "xyxy": [
+      1.611764907836914,
+      46.7264404296875,
+      52.44861602783203,
+      96.26216125488281
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.94921875,
+    "xyxy": [
+      18.66529655456543,
+      79.4815673828125,
+      76.40242767333984,
+      137.14840698242188
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.953125,
+    "xyxy": [
+      25.65723419189453,
+      -0.4807248115539551,
+      95.01188659667969,
+      43.010589599609375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9453125,
+    "xyxy": [
+      93.30824279785156,
+      78.73513793945312,
+      159.9613037109375,
+      129.7117156982422
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "no_bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.91015625,
+    "xyxy": [
+      95.52298736572266,
+      40.56050109863281,
+      149.51785278320312,
+      84.626708984375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      -0.4767265319824219,
+      167.40301513671875,
+      38.768253326416016,
+      252.66680908203125
+    ],
+    "source_xyxy": [
+      0.0,
+      6.0,
+      17.0,
+      47.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      -0.5352382659912109,
+      167.52606201171875,
+      38.60564422607422,
+      252.52435302734375
+    ],
+    "source_xyxy": [
+      0.0,
+      92.0,
+      16.0,
+      141.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      -0.48229026794433594,
+      167.43162536621094,
+      38.720001220703125,
+      252.669921875
+    ],
+    "source_xyxy": [
+      12.0,
+      31.0,
+      67.0,
+      78.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      73.29297637939453,
+      18.156970977783203,
+      130.7052459716797,
+      65.39659118652344
+    ],
+    "source_xyxy": [
+      73.0,
+      19.0,
+      130.0,
+      64.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9609375,
+    "xyxy": [
+      -0.49727821350097656,
+      167.41259765625,
+      38.6993408203125,
+      252.65615844726562
+    ],
+    "source_xyxy": [
+      96.0,
+      41.0,
+      143.0,
+      83.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96875,
+    "xyxy": [
+      1.745574951171875,
+      46.58083724975586,
+      52.53179931640625,
+      95.95401763916016
+    ],
+    "source_xyxy": [
+      2.0,
+      47.0,
+      51.0,
+      95.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.97265625,
+    "xyxy": [
+      26.126220703125,
+      -0.3020796775817871,
+      95.4017562866211,
+      43.010650634765625
+    ],
+    "source_xyxy": [
+      27.0,
+      0.0,
+      94.0,
+      42.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9765625,
+    "xyxy": [
+      35.215030670166016,
+      115.9205322265625,
+      98.17515563964844,
+      172.36810302734375
+    ],
+    "source_xyxy": [
+      35.0,
+      116.0,
+      98.0,
+      172.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.95703125,
+    "xyxy": [
+      -0.5091743469238281,
+      167.42401123046875,
+      38.70015335083008,
+      252.69387817382812
+    ],
+    "source_xyxy": [
+      92.0,
+      70.0,
+      159.0,
+      129.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.96875,
+    "xyxy": [
+      18.491025924682617,
+      79.55899047851562,
+      76.07298278808594,
+      136.8578643798828
+    ],
+    "source_xyxy": [
+      18.0,
+      80.0,
+      75.0,
+      136.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 48,
+    "category_name": "chicken duck",
+    "prompt": "chicken duck",
+    "confidence": 0.984375,
+    "xyxy": [
+      60.02754211425781,
+      191.89413452148438,
+      189.19158935546875,
+      338.2285461425781
+    ],
+    "source_xyxy": [
+      58.0,
+      192.0,
+      188.0,
+      338.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 48,
+    "category_name": "chicken duck",
+    "prompt": "chicken duck",
+    "confidence": 0.95703125,
+    "xyxy": [
+      125.81159973144531,
+      94.45951843261719,
+      419.30255126953125,
+      319.1990661621094
+    ],
+    "source_xyxy": [
+      126.0,
+      94.0,
+      418.0,
+      320.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 84,
+    "category_name": "carrot",
+    "prompt": "carrot",
+    "confidence": 0.9765625,
+    "xyxy": [
+      -0.3174018859863281,
+      167.08499145507812,
+      38.27421951293945,
+      251.73829650878906
+    ],
+    "source_xyxy": [
+      0.0,
+      167.0,
+      38.0,
+      250.0
+    ]
+  },
+  {
+    "image_id": 8,
+    "mode": "bbox",
+    "category_id": 48,
+    "category_name": "chicken duck",
+    "prompt": "chicken duck",
+    "confidence": 0.984375,
+    "xyxy": [
+      149.60166931152344,
+      83.17193603515625,
+      435.88470458984375,
+      226.329833984375
+    ],
+    "source_xyxy": [
+      150.0,
+      83.0,
+      436.0,
+      225.0
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.609375,
+    "xyxy": [
+      401.1562805175781,
+      53.197322845458984,
+      513.1629028320312,
+      110.813720703125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.7109375,
+    "xyxy": [
+      425.4382019042969,
+      16.94536781311035,
+      508.2157287597656,
+      59.782623291015625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.6328125,
+    "xyxy": [
+      400.24981689453125,
+      118.27073669433594,
+      501.4658203125,
+      206.35418701171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.69140625,
+    "xyxy": [
+      344.3619689941406,
+      117.74114227294922,
+      461.6424255371094,
+      223.31472778320312
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.671875,
+    "xyxy": [
+      401.81512451171875,
+      78.73249816894531,
+      506.876708984375,
+      151.9358673095703
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.67578125,
+    "xyxy": [
+      320.6181640625,
+      148.1326141357422,
+      369.38006591796875,
+      203.3891143798828
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.60546875,
+    "xyxy": [
+      329.50006103515625,
+      278.66302490234375,
+      460.102783203125,
+      358.63836669921875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.7265625,
+    "xyxy": [
+      141.11814880371094,
+      166.62216186523438,
+      305.44921875,
+      308.5819091796875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.640625,
+    "xyxy": [
+      221.79290771484375,
+      125.1708755493164,
+      284.6371154785156,
+      166.4458465576172
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.5625,
+    "xyxy": [
+      387.5029296875,
+      225.94290161132812,
+      450.84088134765625,
+      315.416748046875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.6875,
+    "xyxy": [
+      134.53021240234375,
+      198.08200073242188,
+      214.20828247070312,
+      274.190673828125
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.50390625,
+    "xyxy": [
+      132.9366455078125,
+      190.70513916015625,
+      195.49395751953125,
+      217.54562377929688
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.64453125,
+    "xyxy": [
+      149.48751831054688,
+      131.60691833496094,
+      284.14276123046875,
+      203.786865234375
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.70703125,
+    "xyxy": [
+      242.23806762695312,
+      172.63626098632812,
+      356.4205627441406,
+      345.7707824707031
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.6953125,
+    "xyxy": [
+      272.922607421875,
+      125.22392272949219,
+      324.87054443359375,
+      172.2827606201172
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.59375,
+    "xyxy": [
+      237.18817138671875,
+      316.58380126953125,
+      344.30865478515625,
+      358.229248046875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.6875,
+    "xyxy": [
+      137.80740356445312,
+      283.36676025390625,
+      290.25762939453125,
+      353.1865539550781
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.55859375,
+    "xyxy": [
+      364.8485412597656,
+      54.5551872253418,
+      381.3703308105469,
+      73.21497344970703
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.5390625,
+    "xyxy": [
+      -0.7262763977050781,
+      229.8026123046875,
+      10.979790687561035,
+      246.91082763671875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.58203125,
+    "xyxy": [
+      153.70767211914062,
+      152.5691680908203,
+      175.27999877929688,
+      183.17123413085938
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.57421875,
+    "xyxy": [
+      119.68499755859375,
+      93.73275756835938,
+      142.47702026367188,
+      117.78706359863281
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.83203125,
+    "xyxy": [
+      5.88104248046875,
+      131.8226776123047,
+      144.19320678710938,
+      336.19403076171875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.796875,
+    "xyxy": [
+      45.59031677246094,
+      146.7196044921875,
+      147.4635467529297,
+      334.1951904296875
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.80859375,
+    "xyxy": [
+      71.27116394042969,
+      162.3787841796875,
+      142.40484619140625,
+      304.97711181640625
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.65625,
+    "xyxy": [
+      153.69442749023438,
+      123.70291137695312,
+      186.70498657226562,
+      153.6317901611328
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.71875,
+    "xyxy": [
+      -0.5835342407226562,
+      46.69660949707031,
+      21.364452362060547,
+      62.99901580810547
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "no_bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.5234375,
+    "xyxy": [
+      279.6792907714844,
+      74.35729217529297,
+      307.1944274902344,
+      94.68163299560547
+    ],
+    "source_xyxy": null
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.96484375,
+    "xyxy": [
+      71.55982971191406,
+      162.816650390625,
+      141.96499633789062,
+      304.76959228515625
+    ],
+    "source_xyxy": [
+      72.23376623376625,
+      165.53896103896105,
+      142.36363636363637,
+      302.22727272727275
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.96484375,
+    "xyxy": [
+      45.477909088134766,
+      147.1387481689453,
+      147.80792236328125,
+      334.87542724609375
+    ],
+    "source_xyxy": [
+      45.28571428571429,
+      147.6818181818182,
+      149.50649350649348,
+      332.4220779220779
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.9765625,
+    "xyxy": [
+      5.9154815673828125,
+      131.7783966064453,
+      149.0791778564453,
+      336.32867431640625
+    ],
+    "source_xyxy": [
+      5.675324675324681,
+      131.44805194805195,
+      146.90909090909093,
+      336.3181818181818
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.96484375,
+    "xyxy": [
+      427.1214294433594,
+      16.561256408691406,
+      509.9902038574219,
+      58.487709045410156
+    ],
+    "source_xyxy": [
+      428.62773722627736,
+      15.90510948905111,
+      510.7445255474453,
+      57.875912408759135
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.9296875,
+    "xyxy": [
+      400.8083801269531,
+      53.225955963134766,
+      512.3831787109375,
+      116.0544204711914
+    ],
+    "source_xyxy": [
+      400.1605839416058,
+      53.131386861313885,
+      511.0,
+      123.20437956204381
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.97265625,
+    "xyxy": [
+      346.6479187011719,
+      117.52686309814453,
+      462.1554870605469,
+      223.12139892578125
+    ],
+    "source_xyxy": [
+      349.43065693430657,
+      117.0,
+      461.83941605839414,
+      223.56934306569343
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.93359375,
+    "xyxy": [
+      392.65374755859375,
+      100.58908081054688,
+      502.2420654296875,
+      206.482177734375
+    ],
+    "source_xyxy": [
+      388.84671532846716,
+      100.2116788321168,
+      504.5401459854014,
+      208.24087591240877
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 46,
+    "category_name": "steak",
+    "prompt": "steak",
+    "confidence": 0.9609375,
+    "xyxy": [
+      402.25164794921875,
+      78.15155029296875,
+      506.656494140625,
+      151.90431213378906
+    ],
+    "source_xyxy": [
+      403.81021897810217,
+      76.85401459854016,
+      505.6350364963504,
+      152.03649635036496
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.93359375,
+    "xyxy": [
+      -0.36248779296875,
+      80.49415588378906,
+      69.81266021728516,
+      138.670654296875
+    ],
+    "source_xyxy": [
+      1.7013574660633424,
+      81.36651583710407,
+      65.5022624434389,
+      137.47511312217193
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.9375,
+    "xyxy": [
+      -0.9339828491210938,
+      20.689315795898438,
+      127.82880401611328,
+      106.9068832397461
+    ],
+    "source_xyxy": [
+      48.30769230769229,
+      85.43891402714932,
+      156.90497737556558,
+      169.14932126696834
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.90234375,
+    "xyxy": [
+      61.924522399902344,
+      95.7425537109375,
+      159.44842529296875,
+      250.75364685058594
+    ],
+    "source_xyxy": [
+      56.45248868778279,
+      98.56108597285068,
+      160.52488687782807,
+      249.23981900452492
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.98046875,
+    "xyxy": [
+      134.9641876220703,
+      58.47203063964844,
+      220.3710174560547,
+      137.56854248046875
+    ],
+    "source_xyxy": [
+      131.1131221719457,
+      59.647058823529406,
+      219.80090497737558,
+      137.02262443438912
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.953125,
+    "xyxy": [
+      -0.5925712585449219,
+      20.786766052246094,
+      127.60580444335938,
+      106.78662109375
+    ],
+    "source_xyxy": [
+      0.0,
+      52.859728506787334,
+      81.79185520361989,
+      86.34389140271493
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 81,
+    "category_name": "pumpkin",
+    "prompt": "pumpkin",
+    "confidence": 0.98046875,
+    "xyxy": [
+      -0.8275527954101562,
+      21.274925231933594,
+      128.66729736328125,
+      107.09115600585938
+    ],
+    "source_xyxy": [
+      0.0,
+      21.18552036199094,
+      131.5656108597285,
+      104.89592760180996
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 80,
+    "category_name": "lettuce",
+    "prompt": "lettuce",
+    "confidence": 0.95703125,
+    "xyxy": [
+      117.753173828125,
+      61.786983489990234,
+      176.76974487304688,
+      124.7733154296875
+    ],
+    "source_xyxy": [
+      118.44343891402713,
+      60.552036199095014,
+      179.0769230769231,
+      127.52036199095024
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 80,
+    "category_name": "lettuce",
+    "prompt": "lettuce",
+    "confidence": 0.953125,
+    "xyxy": [
+      0.0012350082397460938,
+      115.98002624511719,
+      30.514015197753906,
+      230.37501525878906
+    ],
+    "source_xyxy": [
+      0.3438914027149167,
+      116.2081447963801,
+      28.850678733031657,
+      227.97285067873304
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 80,
+    "category_name": "lettuce",
+    "prompt": "lettuce",
+    "confidence": 0.94921875,
+    "xyxy": [
+      31.815004348754883,
+      147.02706909179688,
+      88.95291900634766,
+      301.3253479003906
+    ],
+    "source_xyxy": [
+      32.470588235294116,
+      146.97737556561088,
+      88.12669683257917,
+      299.9185520361991
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 80,
+    "category_name": "lettuce",
+    "prompt": "lettuce",
+    "confidence": 0.9609375,
+    "xyxy": [
+      96.53480529785156,
+      196.06051635742188,
+      118.89163208007812,
+      251.500732421875
+    ],
+    "source_xyxy": [
+      96.72398190045249,
+      196.2986425339367,
+      118.89592760180994,
+      250.59728506787332
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 80,
+    "category_name": "lettuce",
+    "prompt": "lettuce",
+    "confidence": 0.9453125,
+    "xyxy": [
+      202.06173706054688,
+      68.04585266113281,
+      284.97430419921875,
+      134.91024780273438
+    ],
+    "source_xyxy": [
+      201.7013574660633,
+      67.7918552036199,
+      286.7692307692308,
+      133.40271493212668
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 50,
+    "category_name": "fried meat",
+    "prompt": "fried meat",
+    "confidence": 0.96875,
+    "xyxy": [
+      263.9341125488281,
+      37.265846252441406,
+      405.3961486816406,
+      149.56961059570312
+    ],
+    "source_xyxy": [
+      264.1447963800905,
+      35.212669683257914,
+      406.22624434389144,
+      148.33484162895928
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 103,
+    "category_name": "other ingredients",
+    "prompt": "other ingredients",
+    "confidence": 0.98046875,
+    "xyxy": [
+      130.39663696289062,
+      -0.1640453338623047,
+      346.3194885253906,
+      81.78032684326172
+    ],
+    "source_xyxy": [
+      129.30316742081448,
+      0.0,
+      352.83257918552033,
+      78.65158371040722
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 50,
+    "category_name": "fried meat",
+    "prompt": "fried meat",
+    "confidence": 0.8984375,
+    "xyxy": [
+      407.3307800292969,
+      101.55807495117188,
+      429.7367248535156,
+      116.19124603271484
+    ],
+    "source_xyxy": [
+      407.13122171945696,
+      101.72850678733032,
+      429.7556561085973,
+      116.2081447963801
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.97265625,
+    "xyxy": [
+      139.58688354492188,
+      165.91702270507812,
+      308.88092041015625,
+      308.8915710449219
+    ],
+    "source_xyxy": [
+      137.9004524886878,
+      163.71945701357464,
+      312.10859728506784,
+      309.87330316742083
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.96484375,
+    "xyxy": [
+      138.17095947265625,
+      284.66265869140625,
+      289.8531494140625,
+      353.46923828125
+    ],
+    "source_xyxy": [
+      140.16289592760182,
+      285.89140271493216,
+      290.3891402714932,
+      354.21719457013575
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.94140625,
+    "xyxy": [
+      234.1310272216797,
+      316.2677917480469,
+      344.6814880371094,
+      360.0749206542969
+    ],
+    "source_xyxy": [
+      232.4705882352941,
+      312.5882352941177,
+      345.59276018099547,
+      361.00452488687785
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.94140625,
+    "xyxy": [
+      254.7650604248047,
+      173.0057830810547,
+      356.08056640625,
+      340.7947082519531
+    ],
+    "source_xyxy": [
+      260.07239819004525,
+      173.2217194570136,
+      357.3574660633484,
+      340.6425339366516
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.9609375,
+    "xyxy": [
+      135.27899169921875,
+      200.15408325195312,
+      213.55191040039062,
+      273.9096374511719
+    ],
+    "source_xyxy": [
+      136.99547511312215,
+      201.72850678733033,
+      213.01357466063348,
+      269.60180995475116
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.9375,
+    "xyxy": [
+      219.40611267089844,
+      125.33441162109375,
+      285.1440734863281,
+      169.74734497070312
+    ],
+    "source_xyxy": [
+      218.44343891402713,
+      125.2579185520362,
+      284.95927601809956,
+      168.2443438914027
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.9375,
+    "xyxy": [
+      5.7063751220703125,
+      131.9866180419922,
+      143.77281188964844,
+      336.3412170410156
+    ],
+    "source_xyxy": [
+      158.71493212669685,
+      128.42533936651586,
+      184.95927601809956,
+      151.9547511312217
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 93,
+    "category_name": "onion",
+    "prompt": "onion",
+    "confidence": 0.921875,
+    "xyxy": [
+      5.7459869384765625,
+      131.95480346679688,
+      143.75070190429688,
+      336.3017883300781
+    ],
+    "source_xyxy": [
+      155.54751131221718,
+      156.9321266968326,
+      175.4570135746606,
+      174.579185520362
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.953125,
+    "xyxy": [
+      135.0460205078125,
+      133.99038696289062,
+      282.5132751464844,
+      216.1556854248047
+    ],
+    "source_xyxy": [
+      136.54298642533934,
+      137.02262443438912,
+      281.33936651583707,
+      211.68325791855204
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.97265625,
+    "xyxy": [
+      273.83135986328125,
+      125.6177978515625,
+      324.6624755859375,
+      171.63824462890625
+    ],
+    "source_xyxy": [
+      275.00452488687785,
+      127.06787330316742,
+      325.68325791855204,
+      170.95927601809956
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.92578125,
+    "xyxy": [
+      141.33526611328125,
+      166.52395629882812,
+      305.144287109375,
+      308.54656982421875
+    ],
+    "source_xyxy": [
+      345.14027149321265,
+      251.9547511312217,
+      374.0995475113122,
+      281.3665158371041
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.9296875,
+    "xyxy": [
+      357.9390563964844,
+      230.86061096191406,
+      387.1377868652344,
+      284.5414123535156
+    ],
+    "source_xyxy": [
+      358.71493212669685,
+      231.59276018099547,
+      388.57918552036193,
+      282.7239819004525
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.96484375,
+    "xyxy": [
+      389.0125732421875,
+      225.8048858642578,
+      449.1611328125,
+      314.6422119140625
+    ],
+    "source_xyxy": [
+      387.6742081447964,
+      225.710407239819,
+      446.9502262443439,
+      315.3031674208145
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.953125,
+    "xyxy": [
+      322.1505432128906,
+      149.2624969482422,
+      368.7253723144531,
+      203.28732299804688
+    ],
+    "source_xyxy": [
+      324.7782805429864,
+      150.1447963800905,
+      369.57466063348414,
+      202.6334841628959
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.92578125,
+    "xyxy": [
+      272.8285217285156,
+      125.17681884765625,
+      324.6734313964844,
+      172.28514099121094
+    ],
+    "source_xyxy": [
+      357.3574660633484,
+      205.34841628959276,
+      375.9095022624435,
+      235.66515837104072
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.91796875,
+    "xyxy": [
+      141.22718811035156,
+      166.56246948242188,
+      305.4820556640625,
+      308.6878356933594
+    ],
+    "source_xyxy": [
+      378.6244343891403,
+      215.7556561085973,
+      412.1085972850679,
+      279.5565610859729
+    ]
+  },
+  {
+    "image_id": 9,
+    "mode": "bbox",
+    "category_id": 82,
+    "category_name": "cucumber",
+    "prompt": "cucumber",
+    "confidence": 0.96875,
+    "xyxy": [
+      330.63104248046875,
+      280.814697265625,
+      462.91387939453125,
+      356.9440612792969
+    ],
+    "source_xyxy": [
+      331.5656108597285,
+      283.6289592760181,
+      463.2398190045249,
+      356.02714932126696
+    ]
+  }
+]
