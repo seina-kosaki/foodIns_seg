@@ -1,0 +1,183 @@
+# =============================================================
+# SAM3 精度評価 設定ファイル (configs/settings_sam3.yaml)
+# main.py はこのファイルだけを読み込みます(CLI引数なし)。
+# =============================================================
+
+# -------------------------------------------------------------
+# SAM3モデルの設定
+# -------------------------------------------------------------
+sam3:
+  # 信頼度しきい値(0〜1)。これ未満の検出はSAM3が出力しません。
+  # AP(平均精度)はスコア順位で計算するため、低スコアの予測も必要です。
+  # 評価では 0.0 付近を推奨。小さいほど予測数が増えて処理時間・容量も増えます。
+  confidence_threshold: 0.5
+
+# -------------------------------------------------------------
+# データセットの設定
+# -------------------------------------------------------------
+dataset:
+  # 評価に使うアノテーション(COCO形式JSON)のパス(プロジェクトルート基準)
+  annotation_path: datasets/annotations/Test.json
+  # 画像フォルダのパス(プロジェクトルート基準)
+  image_dir: datasets/images/test
+  # true: iscrowd=1 のアノテーションも評価に含める / false: 除外
+  include_crowd: false
+  # 先頭から何枚だけ処理するか。null なら全画像。動作確認用に 5 などを指定
+  image_limit: null
+  # 指定した画像IDだけ処理する。null なら全画像。例: [101, 205]
+  image_ids: null
+
+# -------------------------------------------------------------
+# プロンプトの設定(SAM3に渡す文字列)
+# -------------------------------------------------------------
+prompt:
+  # 基本テンプレート。{name} がカテゴリ名に置換されます。
+  # 例: "{name}" → "egg tart" / "a photo of {name}" → "a photo of egg tart"
+  template: "{name}"
+  # カテゴリごとの個別上書き。キーはデータセットのカテゴリ名(大文字小文字も一致させる)。
+  # 上書きしたカテゴリはテンプレートを使わず、指定した文字列がそのままプロンプトになります。
+  # 追加例:
+  #   overrides:
+  #     "date": "date fruit"
+  #     "hamburg": "hamburger"
+  overrides: {}
+
+# -------------------------------------------------------------
+# 評価の設定
+# -------------------------------------------------------------
+evaluation:
+  # 実行するモード。
+  #   no_bbox: bboxを渡さず、プロンプトのみで推論
+  #   bbox   : プロンプト + GT由来のbboxを渡して推論
+  # 片方だけ実行したい場合は [no_bbox] のように書く(A/B比較は両方が必要)。
+  modes: [no_bbox, bbox]
+  # AP・Precision・Recall・F1 を計算するマスクIoUしきい値(COCO標準は0.5〜0.95の0.05刻み)
+  iou_thresholds: [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+  # 表・サマリーで個別に表示するIoUしきい値(iou_thresholds に含まれる値)
+  report_thresholds: [0.5, 0.75]
+  # 全体AP(カテゴリ平均)に加えて、「これらのカテゴリを除いた全体AP」も併記する。
+  # 意味が曖昧で検出が難しいカテゴリを除外した参考値を出すための設定。空にすると併記しない。
+  supplementary_exclude_categories:
+    - "other ingredients"
+
+# -------------------------------------------------------------
+# 出力の設定
+# -------------------------------------------------------------
+output:
+  # 結果の保存先ルート。実行ごとに results/run_00001, run_00002 ... と連番で作成
+  results_dir: results
+  # 予測を重ね描きした可視化画像を保存する枚数(画像の先頭から)。0で保存しない
+  visualization_samples: 20
+  # IoUが高い/低い事例を何件ずつレポート画像に載せるか
+  worst_best_samples: 10
+  # 日本語フォントファイル(.ttf / .otf / .ttc)のパス。
+  # null なら、OS内の日本語フォントを自動検出 → assets/fonts/ の同梱フォントの順に探す
+  font_path: null
+  # レポート画像の解像度(dpi)。大きいほど高精細でファイルも大きくなる
+  dpi: 150
+  # レポートに表示するカテゴリの日本語名(キーはデータセットのカテゴリ名)。
+  # 未記載のカテゴリは元の英語名で表示されます。
+  label_ja:
+    "candy": "キャンディー"
+    "egg tart": "エッグタルト"
+    "french fries": "フライドポテト"
+    "chocolate": "チョコレート"
+    "biscuit": "ビスケット"
+    "popcorn": "ポップコーン"
+    "pudding": "プリン"
+    "ice cream": "アイスクリーム"
+    "cheese butter": "チーズ・バター"
+    "cake": "ケーキ"
+    "wine": "ワイン"
+    "milkshake": "ミルクシェイク"
+    "coffee": "コーヒー"
+    "juice": "ジュース"
+    "milk": "牛乳"
+    "tea": "お茶"
+    "almond": "アーモンド"
+    "red beans": "小豆"
+    "cashew": "カシューナッツ"
+    "dried cranberries": "ドライクランベリー"
+    "soy": "大豆"
+    "walnut": "くるみ"
+    "peanut": "ピーナッツ"
+    "egg": "卵"
+    "apple": "りんご"
+    "date": "デーツ"
+    "apricot": "あんず"
+    "avocado": "アボカド"
+    "banana": "バナナ"
+    "strawberry": "いちご"
+    "cherry": "さくらんぼ"
+    "blueberry": "ブルーベリー"
+    "raspberry": "ラズベリー"
+    "mango": "マンゴー"
+    "olives": "オリーブ"
+    "peach": "桃"
+    "lemon": "レモン"
+    "pear": "梨"
+    "fig": "いちじく"
+    "pineapple": "パイナップル"
+    "grape": "ぶどう"
+    "kiwi": "キウイ"
+    "melon": "メロン"
+    "orange": "オレンジ"
+    "watermelon": "スイカ"
+    "steak": "ステーキ"
+    "pork": "豚肉"
+    "chicken duck": "鶏肉・鴨肉"
+    "sausage": "ソーセージ"
+    "fried meat": "揚げ肉"
+    "lamb": "羊肉"
+    "sauce": "ソース"
+    "crab": "カニ"
+    "fish": "魚"
+    "shellfish": "貝類"
+    "shrimp": "エビ"
+    "soup": "スープ"
+    "bread": "パン"
+    "corn": "とうもろこし"
+    "hamburg": "ハンバーガー"
+    "pizza": "ピザ"
+    "hanamaki baozi": "花巻(蒸しパン)"
+    "wonton dumplings": "ワンタン・餃子"
+    "pasta": "パスタ"
+    "noodles": "麺類"
+    "rice": "ご飯"
+    "pie": "パイ"
+    "tofu": "豆腐"
+    "eggplant": "なす"
+    "potato": "じゃがいも"
+    "garlic": "にんにく"
+    "cauliflower": "カリフラワー"
+    "tomato": "トマト"
+    "kelp": "昆布"
+    "seaweed": "海藻"
+    "spring onion": "ねぎ"
+    "rape": "菜の花"
+    "ginger": "しょうが"
+    "okra": "オクラ"
+    "lettuce": "レタス"
+    "pumpkin": "かぼちゃ"
+    "cucumber": "きゅうり"
+    "white radish": "大根"
+    "carrot": "にんじん"
+    "asparagus": "アスパラガス"
+    "bamboo shoots": "たけのこ"
+    "broccoli": "ブロッコリー"
+    "celery stick": "セロリ"
+    "cilantro mint": "パクチー・ミント"
+    "snow peas": "さやえんどう"
+    "cabbage": "キャベツ"
+    "bean sprouts": "もやし"
+    "onion": "玉ねぎ"
+    "pepper": "ピーマン・唐辛子"
+    "green beans": "さやいんげん"
+    "French beans": "インゲン豆"
+    "king oyster mushroom": "エリンギ"
+    "shiitake": "しいたけ"
+    "enoki mushroom": "えのきたけ"
+    "oyster mushroom": "ひらたけ"
+    "white button mushroom": "マッシュルーム"
+    "salad": "サラダ"
+    "other ingredients": "その他の食材"
