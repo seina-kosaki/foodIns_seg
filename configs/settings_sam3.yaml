@@ -23,7 +23,7 @@ dataset:
   # true: iscrowd=1 のアノテーションも評価に含める / false: 除外
   include_crowd: false
   # 先頭から何枚だけ処理するか。null なら全画像。動作確認用に 5 などを指定
-  image_limit: 10
+  image_limit: null
   # 指定した画像IDだけ処理する。null なら全画像。例: [101, 205]
   image_ids: null
 
@@ -54,12 +54,9 @@ evaluation:
   # AP・Precision・Recall・F1 を計算するマスクIoUしきい値(COCO標準は0.5〜0.95の0.05刻み)
   iou_thresholds: [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
   # 表・サマリーで個別に表示するIoUしきい値(iou_thresholds に含まれる値)
-  report_thresholds: [0.5, 0.75]
-  # 全体AP(カテゴリ平均)に加えて、「これらのカテゴリを除いた全体AP」も併記する。
-  # 意味が曖昧で検出が難しいカテゴリを除外した参考値を出すための設定。空にすると併記しない。
-  supplementary_exclude_categories:
-    - ""
-
+  report_thresholds: [0.5, 0.6,0.7,0.8,0.9]
+  # Precision / Recall / F1に含める予測confidenceの下限
+  pr_confidence_threshold: 0.5
 # -------------------------------------------------------------
 # 出力の設定
 # -------------------------------------------------------------
