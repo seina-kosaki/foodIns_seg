@@ -1,0 +1,9 @@
+{
+  "run_id": "run_00001",
+  "started_at": "2026-11-23T06:33:51.778127+00:00",
+  "state": "complete",
+  "successful_image_count": 2135,
+  "skipped_image_count": 0,
+  "device": "cuda",
+  "database": "C:\\work\\foodIns_seg\\results\\run_00001\\inference.sqlite3"
+}

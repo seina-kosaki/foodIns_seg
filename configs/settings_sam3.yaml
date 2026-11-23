@@ -3,6 +3,11 @@
 # main.py はこのファイルだけを読み込みます(CLI引数なし)。
 # =============================================================
 
+# 推論のrun-id。autoまたは未指定なら未使用の連番runを作成する。
+run_id: auto
+# 解析対象run。analyze.py実行時は既存runを明示して指定する。
+analysis_run_id: run_00001
+
 # -------------------------------------------------------------
 # SAM3モデルの設定
 # -------------------------------------------------------------
@@ -57,6 +62,22 @@ evaluation:
   report_thresholds: [0.5, 0.6,0.7,0.8,0.9]
   # Precision / Recall / F1に含める予測confidenceの下限
   pr_confidence_threshold: 0.5
+  # 補足集計から除外するカテゴリ名
+  supplementary_exclude_categories: ["other ingredients"]
+
+comparison:
+  # per-GT状態判定と遷移に使うマスクIoUしきい値
+  comparison_iou_threshold: 0.5
+  # 0.5以上の判定しきい値
+  success_iou_threshold: 0.5
+  # A/B差が同等とみなす絶差
+  equal_margin: 0.005
+  # 自動判定のマスク再現率改善しきい値
+  recall_gain: 0.10
+  # bbox APとmask APの輪郭精度差しきい値
+  contour_gap: 0.05
+  # 適合率差しきい値
+  precision_gap: 0.10
 # -------------------------------------------------------------
 # 出力の設定
 # -------------------------------------------------------------
@@ -69,7 +90,8 @@ output:
   worst_best_samples: 10
   # 日本語フォントファイル(.ttf / .otf / .ttc)のパス。
   # null なら、OS内の日本語フォントを自動検出 → assets/fonts/ の同梱フォントの順に探す
-  font_path: null
+  # Windows標準の日本語フォントを明示し、文字化けを防ぐ。
+  font_path: C:/Windows/Fonts/YuGothR.ttc
   # レポート画像の解像度(dpi)。大きいほど高精細でファイルも大きくなる
   dpi: 150
   # レポートに表示するカテゴリの日本語名(キーはデータセットのカテゴリ名)。

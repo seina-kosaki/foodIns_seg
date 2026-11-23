@@ -45,6 +45,23 @@ _GEOMETRY_LABELS = {"bbox": "bbox", "mask": "マスク"}
 _SCOPE_LABELS = {"overall": "全体", "category": "カテゴリ別"}
 
 
+def _configure_japanese_font(font_path: Path) -> font_manager.FontProperties:
+    font_manager.fontManager.addfont(str(font_path))
+    font = font_manager.FontProperties(fname=str(font_path))
+    plt.rcParams["font.family"] = font.get_name()
+    plt.rcParams["font.sans-serif"] = [font.get_name()]
+    plt.rcParams["axes.unicode_minus"] = False
+    return font
+
+
+def _apply_font_to_axis(axis: Any, font: font_manager.FontProperties) -> None:
+    axis.title.set_fontproperties(font)
+    axis.xaxis.label.set_fontproperties(font)
+    axis.yaxis.label.set_fontproperties(font)
+    for tick in axis.get_xticklabels() + axis.get_yticklabels():
+        tick.set_fontproperties(font)
+
+
 def _find_japanese_font(output_settings: dict[str, Any], category_names: list[str], project_root: Path) -> Path:
     required = "".join(category_names) + (
         "食事データ評価bboxは正解bboxを入力する条件付き評価"
@@ -63,6 +80,17 @@ def _find_japanese_font(output_settings: dict[str, Any], category_names: list[st
         path = Path(configured)
         candidates.append(path if path.is_absolute() else project_root / path)
     else:
+        known_japanese_fonts = (
+            "NotoSansJP-VF.ttf",
+            "NotoSerifJP-VF.ttf",
+            "YuGothR.ttc",
+            "YuGothM.ttc",
+            "meiryo.ttc",
+            "msgothic.ttc",
+            "msyh.ttc",
+        )
+        windows_fonts = Path("C:/Windows/Fonts")
+        candidates.extend(windows_fonts / name for name in known_japanese_fonts)
         candidates.extend(Path(path) for path in font_manager.findSystemFonts())
         fonts_directory = project_root / "assets" / "fonts"
         if fonts_directory.is_dir():
@@ -94,6 +122,115 @@ def write_metrics_csv(path: Path, rows: list[dict[str, Any]]) -> None:
                     for key, value in row.items()
                 }
             )
+
+
+def write_comparison_outputs(
+    comparison_directory: Path,
+    comparison_metrics: list[dict[str, Any]],
+    comparison_gt: list[dict[str, Any]],
+    transition: list[dict[str, Any]],
+    font_path: Path,
+    dpi: int,
+) -> None:
+    comparison_directory.mkdir(parents=True, exist_ok=True)
+    for name, rows in (
+        ("comparison_metrics.csv", comparison_metrics),
+        ("comparison_gt.csv", comparison_gt),
+        ("transition_matrix.csv", transition),
+    ):
+        if not rows:
+            continue
+        with (comparison_directory / name).open("w", encoding="utf-8-sig", newline="") as file:
+            writer = csv.DictWriter(file, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
+
+    font = _configure_japanese_font(font_path)
+    charts_directory = comparison_directory / "charts"
+    charts_directory.mkdir(parents=True, exist_ok=True)
+
+    figure, axes = plt.subplots(1, 2, figsize=(14, 7))
+    for axis, geometry in zip(axes, ("bbox", "mask")):
+        rows = [row for row in comparison_gt if row.get(f"{'B' if geometry == 'bbox' else 'B'}_{geometry}_iou") is not None]
+        x = [float(row[f"A_{geometry}_iou"]) for row in rows if row.get(f"A_{geometry}_iou") is not None]
+        y = [float(row[f"B_{geometry}_iou"]) for row in rows if row.get(f"B_{geometry}_iou") is not None]
+        axis.scatter(x, y, s=18, alpha=0.65, color="#2878B5")
+        axis.plot([0, 1], [0, 1], "--", color="#777777")
+        axis.set_title(f"{geometry} GT別IoU", fontproperties=font)
+        axis.set_xlim(0, 1)
+        axis.set_ylim(0, 1)
+        axis.set_xlabel("bboxなし 最良IoU", fontproperties=font)
+        axis.set_ylabel("bboxあり 最良IoU", fontproperties=font)
+        axis.grid(alpha=0.2)
+    figure.tight_layout()
+    figure.savefig(charts_directory / "scatter_ab_iou.png", dpi=dpi, bbox_inches="tight")
+    plt.close(figure)
+
+    matrix = np.full((3, 3), 0.0)
+    states = ("成功", "低IoU", "見逃し")
+    total = len(comparison_gt)
+    for row in transition:
+        i = states.index(row["A_state"])
+        j = states.index(row["B_state"])
+        matrix[i, j] = float(row["count"])
+    figure, axis = plt.subplots(figsize=(8, 7))
+    image = axis.imshow(matrix, cmap="Blues", vmin=0)
+    axis.set_xticks(range(3), states)
+    axis.set_yticks(range(3), states)
+    axis.set_xlabel("bboxあり", fontproperties=font)
+    axis.set_ylabel("bboxなし", fontproperties=font)
+    axis.set_title("状態遷移（件数 / 割合）", fontproperties=font)
+    _apply_font_to_axis(axis, font)
+    for i in range(3):
+        for j in range(3):
+            count = int(matrix[i, j])
+            ratio = count / total if total else 0.0
+            axis.text(j, i, f"{count}\n{ratio:.1%}", ha="center", va="center",
+                      fontproperties=font)
+    figure.colorbar(image, ax=axis)
+    figure.tight_layout()
+    figure.savefig(charts_directory / "transition_matrix.png", dpi=dpi, bbox_inches="tight")
+    plt.close(figure)
+
+    rescued = sum(
+        row["A_state"] in ("低IoU", "見逃し") and row["B_state"] == "成功"
+        for row in comparison_gt
+    )
+    rescued_ratio = rescued / len(comparison_gt) if comparison_gt else 0.0
+    figure = plt.figure(figsize=(15, 10))
+    axis = figure.add_subplot(111)
+    axis.axis("off")
+    axis.text(
+        0.01,
+        0.96,
+        f"bboxにより救われるGT: {rescued}件（{rescued_ratio:.1%}）",
+        fontproperties=font,
+        fontsize=16,
+        va="top",
+    )
+    table_rows = [
+        row for row in comparison_metrics
+        if row["metric"] in ("ap50_95", "ap50", "ap75",
+                             "recall_iou_0.50", "f1_iou_0.50")
+    ]
+    if table_rows:
+        table = axis.table(
+            cellText=[
+                [row["geometry"], row["metric"], f"{row['A_no_bbox']:.3f}",
+                 f"{row['B_bbox']:.3f}", f"{row['difference']:+.3f}", row["decision"]]
+                for row in table_rows[:12]
+            ],
+            colLabels=["評価対象", "指標", "A: bboxなし", "B: bboxあり", "差(B-A)", "判定"],
+            loc="upper left",
+            bbox=(0.01, 0.08, 0.98, 0.78),
+        )
+        table.auto_set_font_size(False)
+        table.set_fontsize(9)
+        for key, cell in table.get_celld().items():
+            cell.get_text().set_fontproperties(font)
+            cell.get_text().set_fontsize(9)
+    figure.savefig(comparison_directory / "summary.png", dpi=dpi, bbox_inches="tight")
+    plt.close(figure)
 
 
 def _csv_column_label(key: str) -> str:
@@ -177,7 +314,7 @@ def write_summary_images(
             page_ids = category_ids[start : start + 20]
             for geometry in ("mask", "bbox"):
                 _write_category_metrics_chart(
-                    mode_directory / f"category_metrics_{geometry}_{page_index:03d}.png",
+                    mode_directory / f"category_ap_{geometry}_{page_index:03d}.png",
                     mode,
                     page_ids,
                     mode_rows,
@@ -200,7 +337,7 @@ def _write_comparison_summary(
     report_thresholds: list[float],
     pr_confidence_threshold: float,
 ) -> None:
-    font = font_manager.FontProperties(fname=str(font_path))
+    font = _configure_japanese_font(font_path)
     mode_colors = {"no_bbox": "#2878B5", "bbox": "#E07A24"}
     mode_styles = {"no_bbox": "-", "bbox": "--"}
     metric_styles = {
@@ -210,8 +347,8 @@ def _write_comparison_summary(
     }
     figure, axes = plt.subplots(2, 2, figsize=(15, 11), squeeze=False)
     for axis, geometry, title in (
-        (axes[0][0], "mask", "マスクAP（IoUごと）"),
-        (axes[0][1], "bbox", "bbox AP（IoUごと）"),
+        (axes[0][0], "mask", "マスク mAP（IoUごと）"),
+        (axes[0][1], "bbox", "bbox mAP（IoUごと）"),
     ):
         overall_by_mode = {
             row["mode"]: row
@@ -234,7 +371,7 @@ def _write_comparison_summary(
         axis.set_title(title, fontproperties=font, fontsize=14)
         axis.set_xticks(x_values, [f"{value:.2f}" for value in iou_thresholds])
         axis.set_xlabel("IoU閾値", fontproperties=font)
-        axis.set_ylabel("全体macro AP", fontproperties=font)
+        axis.set_ylabel("カテゴリ平均 mAP", fontproperties=font)
         axis.set_ylim(0, 1.05)
         axis.grid(axis="y", alpha=0.25)
         axis.legend(prop=font)
@@ -242,8 +379,8 @@ def _write_comparison_summary(
             tick.set_fontproperties(font)
 
     for axis, geometry, title in (
-        (axes[1][0], "mask", "マスク P/R/F1（全体macro）"),
-        (axes[1][1], "bbox", "bbox P/R/F1（全体macro）"),
+        (axes[1][0], "mask", "マスク P/R/F1（カテゴリ平均）"),
+        (axes[1][1], "bbox", "bbox P/R/F1（カテゴリ平均）"),
     ):
         overall_by_mode = {
             row["mode"]: row
@@ -280,7 +417,7 @@ def _write_comparison_summary(
     figure.suptitle(
         f"推論条件比較（P/R/F1の信頼度しきい値 pr_confidence_threshold: {pr_confidence_threshold}）",
         fontproperties=font,
-        fontsize=16,
+        fontsize=15,
     )
     figure.text(
         0.5,
@@ -307,18 +444,23 @@ def _write_category_metrics_chart(
     *,
     geometry: str,
 ) -> None:
-    font = font_manager.FontProperties(fname=str(font_path))
-    names = [category_names.get(category_id, str(category_id)) for category_id in category_ids]
+    font = _configure_japanese_font(font_path)
     geometry_rows = {
         int(row["category_id"]): row
         for row in rows
         if row["geometry"] == geometry and row["category_id"] is not None
     }
+    names = []
+    for category_id in category_ids:
+        name = category_names.get(category_id, str(category_id))
+        row = geometry_rows.get(category_id)
+        gt_count = row.get("gt_count") if row else None
+        names.append(f"{name} (GT {int(gt_count)})" if gt_count is not None else name)
     figure_height = max(8, 0.5 * len(category_ids) + 3)
-    figure, axes = plt.subplots(1, 2, figsize=(15, figure_height), squeeze=False)
+    figure, axis = plt.subplots(figsize=(8, figure_height))
     category_rows = [geometry_rows.get(category_id, {}) for category_id in category_ids]
     _plot_grouped_metrics(
-        axes[0][0],
+        axis,
         category_rows,
         names,
         ("ap50_95", "ap50", "ap75"),
@@ -326,42 +468,92 @@ def _write_category_metrics_chart(
         ("#2878B5", "#48A36D", "#E07A24"),
         font,
     )
-    pr_columns = []
-    pr_labels = []
-    pr_colors = []
-    metric_colors = {
-        "precision": "#145DA0",
-        "recall": "#218838",
-        "f1": "#C65D00",
-    }
-    shade_denominator = max(len(report_thresholds) - 1, 1)
-    for threshold_index, threshold in enumerate(report_thresholds):
-        shade = 0.42 * (1 - threshold_index / shade_denominator)
-        for metric in ("precision", "recall", "f1"):
-            pr_columns.append(f"{metric}_iou_{threshold:.2f}")
-            pr_labels.append(f"{metric.title()}@{threshold:.2f}")
-            base_color = np.asarray(to_rgb(metric_colors[metric]))
-            pr_colors.append(to_hex(base_color + (1 - base_color) * shade))
-    _plot_grouped_metrics(
-        axes[0][1],
-        category_rows,
-        names,
-        tuple(pr_columns),
-        tuple(pr_labels),
-        tuple(pr_colors),
-        font,
-    )
     title = "マスク" if geometry == "mask" else "bbox"
-    axes[0][0].set_title(f"{title} AP", fontproperties=font)
-    axes[0][1].set_title(f"{title} P/R/F1", fontproperties=font)
+    axis.set_title(f"{title} mAP", fontproperties=font)
     figure.suptitle(
         f"{_MODE_LABELS.get(mode, mode)} {title}カテゴリ別指標（{category_ids[0]}–{category_ids[-1]}）",
         fontproperties=font,
         fontsize=15,
     )
-    figure.tight_layout(rect=(0, 0, 1, 0.97))
+    figure.tight_layout(rect=(0, 0, 1, 0.96))
     figure.savefig(path, dpi=dpi, bbox_inches="tight")
     plt.close(figure)
+
+    heatmap_path = Path(
+        str(path)
+        .replace("category_ap_", "category_heatmap_", 1)
+        .replace("category_metrics_", "category_heatmap_", 1)
+    )
+    heatmap_path.parent.mkdir(parents=True, exist_ok=True)
+    figure, axis = plt.subplots(figsize=(max(12, len(report_thresholds) * 3), figure_height))
+    _plot_category_heatmap(
+        axis,
+        category_rows,
+        names,
+        report_thresholds,
+        font,
+    )
+    axis.set_title(f"{title} P/R/F1ヒートマップ", fontproperties=font)
+    figure.suptitle(
+        f"{_MODE_LABELS.get(mode, mode)} {title}カテゴリ別P/R/F1（{category_ids[0]}–{category_ids[-1]}）",
+        fontproperties=font,
+        fontsize=15,
+    )
+    figure.tight_layout(rect=(0, 0, 1, 0.96))
+    figure.savefig(heatmap_path, dpi=dpi, bbox_inches="tight")
+    plt.close(figure)
+
+
+def _plot_category_heatmap(
+    axis: Any,
+    rows: list[dict[str, Any]],
+    names: list[str],
+    report_thresholds: list[float],
+    font: font_manager.FontProperties,
+) -> None:
+    columns = []
+    labels = []
+    metric_labels = (
+        ("precision", "適合率"),
+        ("recall", "再現率"),
+        ("f1", "F1"),
+    )
+    for metric, metric_label in metric_labels:
+        for threshold in report_thresholds:
+            columns.append(f"{metric}_iou_{threshold:.2f}")
+            labels.append(f"{metric_label}@{threshold:.2f}")
+
+    matrix = np.asarray([
+        [
+            np.nan if row.get(column) is None else float(row[column])
+            for column in columns
+        ]
+        for row in rows
+    ], dtype=float)
+    image = axis.imshow(matrix, aspect="auto", cmap="YlGn", vmin=0, vmax=1)
+    axis.set_xticks(range(len(labels)), labels, rotation=45, ha="right")
+    axis.set_yticks(range(len(names)), names)
+    axis.invert_yaxis()
+    axis.set_title("P/R/F1ヒートマップ", fontproperties=font)
+    for tick in axis.get_xticklabels() + axis.get_yticklabels():
+        tick.set_fontproperties(font)
+        tick.set_fontsize(8)
+    for row_index in range(matrix.shape[0]):
+        for column_index in range(matrix.shape[1]):
+            value = matrix[row_index, column_index]
+            if np.isfinite(value):
+                axis.text(
+                    column_index,
+                    row_index,
+                    f"{value:.2f}",
+                    ha="center",
+                    va="center",
+                    fontsize=7,
+                    fontproperties=font,
+                    color="white" if value >= 0.75 else "black",
+                )
+    axis.set_xlabel("指標とIoU閾値", fontproperties=font)
+    axis.figure.colorbar(image, ax=axis, fraction=0.035, pad=0.02)
 
 
 def _plot_grouped_metrics(
@@ -641,13 +833,21 @@ def select_visualization_images(
         if worst_best_count
         else ()
     )
+    selected_image_ids: set[int] = set()
     for group, candidates in ranked_groups:
         for _, image_id in candidates:
             if len(selected) >= sample_count:
                 break
+            if image_id in selected_image_ids:
+                continue
             selected.append({**image_by_id[image_id], "_sample_group": group})
+            selected_image_ids.add(image_id)
     for image in selected_images:
         if len(selected) >= sample_count:
             break
+        image_id = int(image["id"])
+        if image_id in selected_image_ids:
+            continue
         selected.append({**image, "_sample_group": "sample"})
+        selected_image_ids.add(image_id)
     return selected[:sample_count]

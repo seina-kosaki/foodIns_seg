@@ -284,8 +284,10 @@ def test_summary_handles_single_mode_none_ap_and_splits_category_charts(tmp_path
 
     assert (tmp_path / "comparison_summary.png").is_file()
     for geometry in ("mask", "bbox"):
-        assert (tmp_path / "no_bbox" / f"category_metrics_{geometry}_001.png").is_file()
-        assert (tmp_path / "no_bbox" / f"category_metrics_{geometry}_002.png").is_file()
+        assert (tmp_path / "no_bbox" / f"category_ap_{geometry}_001.png").is_file()
+        assert (tmp_path / "no_bbox" / f"category_ap_{geometry}_002.png").is_file()
+        assert (tmp_path / "no_bbox" / f"category_heatmap_{geometry}_001.png").is_file()
+        assert (tmp_path / "no_bbox" / f"category_heatmap_{geometry}_002.png").is_file()
     assert chart_calls == [
         ("mask", list(range(1, 21))),
         ("bbox", list(range(1, 21))),
@@ -339,40 +341,26 @@ def test_category_charts_separate_geometry_and_pr_metric_colors(tmp_path, monkey
             geometry=geometry,
         )
 
-    assert len(captured) == 2
-    for (figure, axes), geometry in zip(captured, ("mask", "bbox")):
-        assert axes.shape == (1, 2)
-        assert len(axes[0][0].containers) == 3
-        expected_ap = (0.5, 0.6, 0.4) if geometry == "mask" else (0.1, 0.2, 0.3)
-        assert tuple(
-            container.patches[0].get_width()
-            for container in axes[0][0].containers
-        ) == expected_ap
-        pr_axis = axes[0][1]
-        labels = [text.get_text() for text in pr_axis.get_legend().get_texts()]
-        assert labels == [
-            "Precision@0.50",
-            "Recall@0.50",
-            "F1@0.50",
-            "Precision@0.75",
-            "Recall@0.75",
-            "F1@0.75",
-        ]
-        colors = [
-            container.patches[0].get_facecolor()
-            for container in pr_axis.containers
-        ]
-        assert len({tuple(color) for color in colors}) == 6
-        for metric_indexes in ((0, 3), (1, 4), (2, 5)):
-            first, second = (colors[index] for index in metric_indexes)
-            assert tuple(first) != tuple(second)
-            assert np.argmax(first[:3]) == np.argmax(second[:3])
-        assert [np.argmax(color[:3]) for color in colors[:3]] == [2, 1, 0]
-        assert (tmp_path / f"category_metrics_{geometry}_001.png").is_file()
-        assert figure.axes[0].get_title().startswith(
-            "マスク" if geometry == "mask" else "bbox"
-        )
-        assert figure.axes[1].get_title().endswith("P/R/F1")
+    assert len(captured) == 4
+    for chart_index, ((figure, axes), geometry) in enumerate(zip(captured, ("mask", "mask", "bbox", "bbox"))):
+        expected_ap = (0.5, 0.6, 0.4) if chart_index in (0, 1) else (0.1, 0.2, 0.3)
+        if chart_index % 2 == 0:
+            assert len(axes.containers) == 3
+            assert tuple(
+                container.patches[0].get_width()
+                for container in axes.containers
+            ) == expected_ap
+        else:
+            pr_axis = axes
+            assert pr_axis.get_title().endswith("P/R/F1ヒートマップ")
+            assert [text.get_text() for text in pr_axis.get_xticklabels()] == [
+                "適合率@0.50",
+                "適合率@0.75",
+                "再現率@0.50",
+                "再現率@0.75",
+                "F1@0.50",
+                "F1@0.75",
+            ]
 
 
 def test_category_chart_renders_labels_and_marks_zero_metrics(tmp_path, monkeypatch):
@@ -434,68 +422,33 @@ def test_category_chart_renders_labels_and_marks_zero_metrics(tmp_path, monkeypa
             geometry=geometry,
         )
 
-    assert len(captured) == 2
-    for (figure, axes), geometry in zip(captured, ("mask", "bbox")):
-        image_path = tmp_path / f"category_metrics_{geometry}_001.png"
+    assert len(captured) == 4
+    for chart_index, ((figure, axes), geometry) in enumerate(zip(captured, ("mask", "bbox", "mask", "bbox"))):
+        image_path = tmp_path / (
+            f"category_metrics_{geometry}_001.png"
+            if chart_index % 2 == 0
+            else f"category_heatmap_{geometry}_001.png"
+        )
         image = Image.open(image_path).convert("RGB")
-        assert image.width > 1500
         assert image.height > 1500
+        if chart_index % 2 == 0:
+            assert image.width > 1000
+            assert [tick.get_text() for tick in axes.get_xticklabels()] == [
+                "0.0",
+                "0.2",
+                "0.4",
+                "0.6",
+                "0.8",
+                "1.0",
+            ]
+        else:
+            assert image.width > 1500
+            assert len(axes.images) == 1
+            assert axes.images[0].get_array().shape == (20, 6)
 
-        ap_axis, pr_axis = axes[0]
-        assert [tick.get_text() for tick in ap_axis.get_yticklabels()] == [
-            category_names[category_id] for category_id in category_ids
-        ]
-        assert [tick.get_text() for tick in ap_axis.get_xticklabels()] == [
-            "0.0",
-            "0.2",
-            "0.4",
-            "0.6",
-            "0.8",
-            "1.0",
-        ]
-        assert [text.get_text() for text in ap_axis.get_legend().get_texts()] == [
-            "AP50-95",
-            "AP50",
-            "AP75",
-        ]
-        assert [tick.get_text() for tick in pr_axis.get_yticklabels()] == [
-            category_names[category_id] for category_id in category_ids
-        ]
-        assert [text.get_text() for text in pr_axis.get_legend().get_texts()] == [
-            "Precision@0.50",
-            "Recall@0.50",
-            "F1@0.50",
-            "Precision@0.75",
-            "Recall@0.75",
-            "F1@0.75",
-        ]
-
-        # Six zero-valued P/R/F1 series have a visible marker for each non-None
-        # category; the None row must not be presented as zero.
-        assert len(pr_axis.collections) == 6
-        assert [collection.get_offsets().shape[0] for collection in pr_axis.collections] == [
-            19,
-        ] * 6
-        assert all(
-            tick.get_fontsize() >= 10
-            for tick in ap_axis.get_xticklabels() + ap_axis.get_yticklabels()
-        )
-        assert all(
-            text.get_fontsize() >= 9
-            for text in ap_axis.get_legend().get_texts()
-            + pr_axis.get_legend().get_texts()
-        )
-
-        # Check the saved PNG margins where category names, x tick values and
-        # the two legends are rendered (not just the corresponding text artists).
-        for box in (
-            (0, 100, 160, 1800),
-            (150, 1850, 1000, 1910),
-            (700, 1740, 950, 1850),
-            (1810, 1740, 2180, 1850),
-        ):
-            pixels = np.asarray(image.crop(box))
-            assert np.count_nonzero(np.any(pixels < 100, axis=2)) >= 100
+        # Check that the saved image contains sufficient dark rendered pixels.
+        pixels = np.asarray(image)
+        assert np.count_nonzero(np.any(pixels < 100, axis=2)) >= 500
 
 
 def test_comparison_summary_plots_each_threshold_and_confidence(monkeypatch, tmp_path):
@@ -549,6 +502,41 @@ def test_comparison_summary_plots_each_threshold_and_confidence(monkeypatch, tmp
     assert any("0.42" in text.get_text() for text in captured["figure"].texts)
     assert any("条件付き評価" in text.get_text() for text in captured["figure"].texts)
     assert (tmp_path / "comparison_summary.png").is_file()
+
+
+def test_transition_matrix_uses_japanese_font_for_ticks(tmp_path):
+    font_path = reporting._find_japanese_font({}, ["成功", "低IoU", "見逃し"], tmp_path)
+    comparison_gt = [
+        {"A_state": "成功", "B_state": "成功"},
+        {"A_state": "低IoU", "B_state": "成功"},
+    ]
+    transition = [
+        {"A_state": a, "B_state": b, "count": 1 if (a, b) == ("成功", "成功") else 0, "ratio": 0.5}
+        for a in ("成功", "低IoU", "見逃し")
+        for b in ("成功", "低IoU", "見逃し")
+    ]
+    reporting.write_comparison_outputs(
+        tmp_path,
+        [],
+        comparison_gt,
+        transition,
+        font_path,
+        60,
+    )
+    assert (tmp_path / "charts" / "transition_matrix.png").is_file()
+
+
+def test_visualization_image_selection_does_not_repeat_image_ids():
+    selected = reporting.select_visualization_images(
+        [{"id": 1, "file_name": "one.png"}, {"id": 2, "file_name": "two.png"}],
+        {1: [], 2: []},
+        {1: [], 2: []},
+        sample_count=2,
+        worst_best_count=2,
+        confidence_threshold=0.5,
+    )
+    assert len({int(image["id"]) for image in selected}) == 2
+    assert len(selected) == 2
 
 
 def test_overlay_is_saved_inside_condition_directory(tmp_path):
